@@ -1,80 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galaxy News - Latest news</title>
+    <title>About Us - Galaxy News</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./images/logos/galaxynewslogo.jpg" type="image/x-icon">
 </head>
-
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center" href="./">
                 <div class="logo me-2" style="width: 45px; height: 45px;">
-                    <img src="./images/logos/galaxynewslogo.jpg" 
-                         alt="Galaxy News Logo" 
-                         class="img-fluid rounded-circle shadow-sm">
+                    <img src="./images/logos/galaxynewslogo.jpg" alt="Galaxy News" class="img-fluid rounded-circle">
                 </div>
                 <span class="fw-bold fs-4">Galaxy News</span>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <form class="d-flex ms-auto w-50">
-                    <input class="form-control" type="search" placeholder="Search..." id="searchInput">
-                </form>
-            </div>
         </div>
     </nav>
 
-    <!-- Categories -->
-    <div class="bg-light py-3 sticky-top" style="top: 56px;">
-        <div class="container">
-            <div class="d-flex flex-wrap justify-content-center">
-                <button class="category-btn btn btn-light active" data-category="all">
-                    <i class="fas fa-home"></i> Everything
-                </button>
-                <button class="category-btn btn btn-light" data-category="entertainment">
-                    <i class="fas fa-globe"></i> Entertainment
-                </button>
+    <header class="bg-dark text-white py-5 mb-5" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1495020689067-958852a7765e?w=1600') center/cover;">
+        <div class="container text-center py-4">
+            <h1 class="display-4 fw-bold">About Galaxy News</h1>
+            <p class="lead">Your trusted window into the world of stories that matter.</p>
+        </div>
+    </header>
+
+    <div class="container my-5">
+        <div class="row align-items-center mb-5">
+            <div class="col-lg-6">
+                <h2 class="fw-bold mb-4">Our Mission</h2>
+                <p class="text-muted">Galaxy News was founded in 2026 with a simple yet powerful goal: to provide high-quality, unbiased, and timely news to our global audience. In an era of misinformation, we stand for truth, accuracy, and deep investigative journalism.</p>
+                <p class="text-muted">We believe that information is the most powerful tool for positive change, and our dedicated team of journalists works around the clock to bring you stories from technology, entertainment, and beyond.</p>
+            </div>
+            <div class="col-lg-6">
+                <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800" alt="Journalism" class="img-fluid rounded shadow">
             </div>
         </div>
+
+        <hr class="my-5">
+
+     
+        
     </div>
 
-    <!-- Main Content -->
-    <div class="container my-5">
-        <!-- Featured News -->
-        <div id="featuredSection">
-        </div>
-
-        <!-- Trending News -->
-        <div id="trendingSection" class="mb-5">
-            <h2 class="mb-4 mt-4">
-                <i class="fas fa-fire text-danger"></i> Trending
-            </h2>
-            <div class="row g-4" id="trendingNews"></div>
-        </div>
-
-        <!-- All News -->
-        <div>
-            <h2 class="mb-4" id="sectionTitle">All news</h2>
-            <div class="row g-4" id="newsContainer"></div>
-        </div>
-
-        <div id="noResults" class="text-center py-5 d-none">
-            <i class="fas fa-search fa-3x text-muted mb-3"></i>
-            <h4 class="text-muted">No news found</h4>
-        </div>
-    </div>
-
-    <!-- Footer -->
     <footer class="py-5">
         <div class="container">
             <div class="row">
@@ -108,10 +79,5 @@
             <p class="text-center text-white-50 mb-0">&copy; 2026 News. All rights reserved.</p>
         </div>
     </footer>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
-    <script src="data.js"></script>
-    <script src="app.js"></script>
 </body>
-
 </html>
