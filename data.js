@@ -49,7 +49,7 @@ const newsData = [
         title: "Vanna White Marries Longtime Partner John Donaldson in a Private and Heartfelt Ceremony",
         description: "After more than a decade together, Wheel of Fortune icon Vanna White and her longtime love John Donaldson have officially tied the knot. The couple shared their joyful surprise wedding news with fans, opening up about love, timing, and why making it official felt right at this moment in their lives.",
         image: './images/articles/article2.webp',
-        date: '2026-01-21T23:10:58',
+        date: '2026-01-22T02:06:55',
         content: [
            
             {
