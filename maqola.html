@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The article is detailed</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-light">
+     <!-- Navbar -->
+     <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="./">
+                <div class="logo me-2" style="width: 45px; height: 45px;">
+                    <img src="./images/logos/galaxynewslogo.jpg" 
+                         alt="Galaxy News Logo" 
+                         class="img-fluid rounded-circle shadow-sm">
+                </div>
+                <span class="fw-bold fs-4">Galaxy News</span>
+            </a>
+        </div>
+    </nav>
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <a href="index.html" class="btn btn-link text-decoration-none mb-4 ps-0 text-dark">
+                    <i class="fas fa-arrow-left me-2"></i>Return to home page
+                </a>
+
+                <div id="contentArea">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script>
+        // data.js yuklanganidan so'ng ishlaydi
+        const params = new URLSearchParams(window.location.search);
+        const id = parseInt(params.get('id'));
+        const article = newsData.find(a => a.id === id);
+
+        if (article) {
+            let contentHTML = "";
+
+            // JSON ichidagi bloklarni HTMLga aylantirish
+            article.content.forEach(block => {
+                if (block.type === "p") {
+                    contentHTML += `<p class="mb-4 fs-5 text-dark lh-lg" style="text-align: justify;">${block.text}</p>`;
+                } else if (block.type === "h3") {
+                    contentHTML += `<h3 class="mt-5 mb-3 fw-bold text-primary">${block.text}</h3>`;
+                } else if (block.type === "img") {
+                    contentHTML += `
+                <figure class="my-5 text-center">
+                    <img src="${block.src}" class="img-fluid rounded shadow" alt="news">
+                    <figcaption class="text-muted mt-2 small fst-italic">${block.caption}</figcaption>
+                </figure>`;
+                }
+            });
+
+            document.getElementById('contentArea').innerHTML = `
+        <span class="badge bg-primary mb-3 text-uppercase px-3 py-2">${article.category}</span>
+        <h1 class="display-4 fw-bold mb-4">${article.title}</h1>
+        <div class="d-flex align-items-center text-muted mb-5 border-bottom pb-4">
+            <span><i class="fas fa-calendar-alt me-2"></i> ${new Date(article.date).toLocaleDateString('uz-UZ')}</span>
+        </div>
+        <div class="article-body">
+            ${contentHTML}
+        </div>
+    `;
+            document.title = article.title;
+        } else {
+            document.getElementById('contentArea').innerHTML = `<h2 class="text-center mt-5">Kechirasiz, maqola topilmadi!</h2>`;
+        }
+    </script>
+</body>
+
+</html>
