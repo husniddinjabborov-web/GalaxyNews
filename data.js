@@ -272,7 +272,7 @@ const newsData = [
                 "type": "p",
                 "text": "Uvalde County District Attorney Christina Mitchell told jurors that accountability was essential to prevent future tragedies, emphasizing that school shootings could happen anywhere if laws and responsibilities are not enforced."
             },
-           
+
             {
                 "type": "p",
                 "text": "After nearly three weeks of testimony, including 36 prosecution witnesses and only two defense witnesses, the jury deliberated for more than seven hours before returning a not-guilty verdict on all counts."
@@ -293,6 +293,70 @@ const newsData = [
             {
                 "type": "p",
                 "text": "The acquittal has reignited national conversations about police accountability, school safety, and the systemic failures exposed by one of the deadliest school shootings in U.S. history."
+            }
+        ]
+    },
+    {
+        id: 5,
+        category: 'entertainment',
+        title: "A$AP Rocky Addresses Drake Feud Rumors, Says Relationship Is Over: ‘I Just Don’t F--k with Him’",
+        description: "A$AP Rocky has spoken candidly about his strained relationship with Drake, addressing long-standing feud rumors and clarifying that while there is no real ‘beef,’ their friendship has ended following shared romantic history with Rihanna.",
+        image: './images/articles/article5.webp',
+        date: '2026-01-22T14:07:28',
+        "content": [
+            {
+                "type": "p",
+                "text": "A$AP Rocky is setting the record straight about his relationship with Drake amid years of speculation about an ongoing feud between the two hip-hop stars."
+            },
+            {
+                "type": "p",
+                "text": "In a new interview with Apple Music’s Ebro Darden published on Jan. 21, the rapper addressed rumors suggesting that he and the Canadian artist have been engaged in a quiet but persistent rivalry fueled by music, public appearances and shared romantic history."
+            },
+            {
+                "type": "p",
+                "text": "When asked directly whether there was a real issue between them, A$AP Rocky dismissed the idea of an industry-style rap beef, comparing most hip-hop feuds to professional wrestling theatrics designed to provoke fan reactions."
+            },
+            {
+                "type": "p",
+                "text": "“This thing between us, it’s not real smoke,” Rocky explained, before bluntly adding, “But I just don’t f--k with him,” confirming that any former friendship between the two has effectively ended."
+            },
+            {
+                type: "img",
+                src: './images/articles/article5_2.webp',
+                caption: 'A$AP Rocky and Drake, 2013 FIFA 14 Launch event in New York City.'
+            },
+            {
+                "type": "p",
+                "text": "The two rappers were once close collaborators and friends, but their relationship cooled over time as both men were romantically involved with Rihanna. Drake and the singer shared an on-and-off relationship for nearly a decade, while Rihanna later began a long-term partnership with Rocky."
+            },
+            {
+                "type": "p",
+                "text": "Rocky suggested that lingering resentment tied to those relationships played a role in their fallout, explaining that he believes Drake struggled to move on from past feelings."
+            },
+            {
+                "type": "p",
+                "text": "“We were once friends,” Rocky said, adding that the situation became uncomfortable as time went on. He criticized what he viewed as unnecessary fixation, saying it felt immature given their age, success and status."
+            },
+            {
+                type: "img",
+                src: './images/articles/article5_3.webp',
+                caption: "Rihanna and A$AP Rocky at the 'Black Panther: Wakanda Forever' premiere in Hollywood."
+            },
+            {
+                "type": "p",
+                "text": "Speculation about the feud intensified following the release of Rocky’s album ‘Don’t Be Dumb,’ particularly the track ‘Stole Ya Flow,’ which fans interpreted as a direct jab at Drake."
+            },
+            {
+                "type": "p",
+                "text": "While the rapper acknowledged the lyrics could be interpreted that way, he clarified that the song was not aimed at any single person and was instead meant as a broader artistic statement."
+            },
+            {
+                "type": "p",
+                "text": "Rocky, whose real name is Rakim Athelaston Mayers, now shares three children with Rihanna — sons RZA and Riot, and daughter Rocki — and emphasized that his focus is on family, growth and moving forward."
+            },
+            {
+                "type": "p",
+                "text": "He concluded by calling the ongoing speculation ‘petty,’ stating that there is enough success, money and opportunity for everyone, and insisting that any lingering tension should not be mistaken for an active feud."
             }
         ]
     },
