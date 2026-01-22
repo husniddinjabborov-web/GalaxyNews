@@ -449,7 +449,7 @@ const newsData = [
                 "type": "p",
                 "text": "This year introduces a historic addition to the Oscars lineup with the debut of the Best Casting category, recognizing the creative teams behind ensemble performances."
             },
-           
+
             {
                 "type": "p",
                 "text": "A total of 201 films were eligible for Best Picture consideration in 2026, but only 10 titles earned nominations in the Academy’s top category."
@@ -495,79 +495,152 @@ const newsData = [
         description: "An independent autopsy commissioned by Renee Nicole Good’s family reveals new details about the gunshot wounds that killed the 37-year-old mother of three after a fatal encounter with an ICE agent in Minneapolis, intensifying calls for transparency and accountability.",
         image: './images/articles/article8.webp',
         date: '2026-01-22T19:02:58',
-       "content": [
-    {
-      "type": "p",
-      "text": "New details surrounding the death of Renee Nicole Good are emerging as her family releases findings from an independent autopsy, shedding further light on the fatal shooting that has sparked national outrage and ongoing protests in Minneapolis."
-    },
-    {
-      "type": "p",
-      "text": "Good, a 37-year-old mother of three, was found unresponsive inside her car on the morning of Jan. 7 after a confrontation with Immigration and Customs Enforcement agent Jonathan Ross. She had just dropped her 6-year-old child off at school before the deadly encounter."
-    },
+        "content": [
+            {
+                "type": "p",
+                "text": "New details surrounding the death of Renee Nicole Good are emerging as her family releases findings from an independent autopsy, shedding further light on the fatal shooting that has sparked national outrage and ongoing protests in Minneapolis."
+            },
+            {
+                "type": "p",
+                "text": "Good, a 37-year-old mother of three, was found unresponsive inside her car on the morning of Jan. 7 after a confrontation with Immigration and Customs Enforcement agent Jonathan Ross. She had just dropped her 6-year-old child off at school before the deadly encounter."
+            },
 
-    {
-      "type": "p",
-      "text": "According to a Minneapolis police and fire department incident report obtained by PEOPLE, Good was discovered around 9:42 a.m. local time with blood on her face and torso while seated in her maroon Honda Pilot."
+            {
+                "type": "p",
+                "text": "According to a Minneapolis police and fire department incident report obtained by PEOPLE, Good was discovered around 9:42 a.m. local time with blood on her face and torso while seated in her maroon Honda Pilot."
+            },
+            {
+                type: "img",
+                src: './images/articles/article8_2.webp',
+                caption: "Renee Nicole (left) and Becca Good (right)."
+            },
+            {
+                "type": "p",
+                "text": "The Chicago-based law firm Romanucci & Blandin, which represents Good’s family and previously secured a $27 million settlement for George Floyd’s family, commissioned the independent autopsy as part of its private investigation into the killing."
+            },
+            {
+                "type": "p",
+                "text": "The preliminary findings, conducted by a highly credentialed medical pathologist, identified three clear gunshot wound paths and a fourth graze wound consistent with a firearm injury."
+            },
+            {
+                "type": "p",
+                "text": "According to the report, one bullet struck Good’s left forearm, causing soft tissue hemorrhage. A second traveled through her right breast without damaging major organs. The fatal wound entered near her left temple and exited the right side of her head."
+            },
+            {
+                "type": "p",
+                "text": "The autopsy concluded that the wounds to the breast and forearm were not immediately life-threatening. The head wound was determined to be the cause of death."
+            },
+            {
+                type: "img",
+                src: './images/articles/article8_3.webp',
+                caption: "A poster featuring Renee Good's image on Jan. 8, 2026."
+            },
+            {
+                "type": "p",
+                "text": "The Hennepin County Medical Examiner’s Office has not yet released its official autopsy results to the family or their legal team."
+            },
+            {
+                "type": "p",
+                "text": "Attorney Antonio M. Romanucci said the decision to publicly release the findings reflects the family’s commitment to transparency and accountability as the investigation continues."
+            },
+            {
+                "type": "p",
+                "text": "Jonathan Ross, who joined ICE in 2015 and later served as a firearms instructor and member of the FBI’s Joint Terrorism Task Force, has not been charged with a crime. Federal authorities say the FBI is handling the investigation."
+            },
+            {
+                "type": "p",
+                "text": "The Department of Homeland Security confirmed Ross was taken to the hospital following the shooting with internal injuries, but declined to provide further details. Minnesota officials have called for a fair and transparent investigation."
+            },
+            {
+                type: "img",
+                src: './images/articles/article8_4.webp',
+                caption: "Vigil for Renee Good in January 2026."
+            },
+            {
+                "type": "p",
+                "text": "Despite federal claims labeling Good as a threat, her family strongly disputes that narrative, describing her as a loving mother, devoted partner, and a source of light and optimism to those around her."
+            },
+            {
+                "type": "p",
+                "text": "As protests, vigils, and political debate continue, Good’s partner Becca Good says she is focused on raising their child and honoring Renee’s belief in a better future."
+            },
+            {
+                "type": "p",
+                "text": "Good’s family insists that her death will not fade quietly and that they will continue pursuing the truth about what happened on Jan. 7."
+            }
+        ]
     },
     {
-        type: "img",
-        src: './images/articles/article8_2.webp',
-        caption: "Renee Nicole (left) and Becca Good (right)."
-    },
-    {
-      "type": "p",
-      "text": "The Chicago-based law firm Romanucci & Blandin, which represents Good’s family and previously secured a $27 million settlement for George Floyd’s family, commissioned the independent autopsy as part of its private investigation into the killing."
-    },
-    {
-      "type": "p",
-      "text": "The preliminary findings, conducted by a highly credentialed medical pathologist, identified three clear gunshot wound paths and a fourth graze wound consistent with a firearm injury."
-    },
-    {
-      "type": "p",
-      "text": "According to the report, one bullet struck Good’s left forearm, causing soft tissue hemorrhage. A second traveled through her right breast without damaging major organs. The fatal wound entered near her left temple and exited the right side of her head."
-    },
-    {
-      "type": "p",
-      "text": "The autopsy concluded that the wounds to the breast and forearm were not immediately life-threatening. The head wound was determined to be the cause of death."
-    },
-    {
-        type: "img",
-        src: './images/articles/article8_3.webp',
-        caption: "A poster featuring Renee Good's image on Jan. 8, 2026."
-    },
-    {
-      "type": "p",
-      "text": "The Hennepin County Medical Examiner’s Office has not yet released its official autopsy results to the family or their legal team."
-    },
-    {
-      "type": "p",
-      "text": "Attorney Antonio M. Romanucci said the decision to publicly release the findings reflects the family’s commitment to transparency and accountability as the investigation continues."
-    },
-    {
-      "type": "p",
-      "text": "Jonathan Ross, who joined ICE in 2015 and later served as a firearms instructor and member of the FBI’s Joint Terrorism Task Force, has not been charged with a crime. Federal authorities say the FBI is handling the investigation."
-    },
-    {
-      "type": "p",
-      "text": "The Department of Homeland Security confirmed Ross was taken to the hospital following the shooting with internal injuries, but declined to provide further details. Minnesota officials have called for a fair and transparent investigation."
-    },
-    {
-        type: "img",
-        src: './images/articles/article8_4.webp',
-        caption: "Vigil for Renee Good in January 2026."
-    },
-    {
-      "type": "p",
-      "text": "Despite federal claims labeling Good as a threat, her family strongly disputes that narrative, describing her as a loving mother, devoted partner, and a source of light and optimism to those around her."
-    },
-    {
-      "type": "p",
-      "text": "As protests, vigils, and political debate continue, Good’s partner Becca Good says she is focused on raising their child and honoring Renee’s belief in a better future."
-    },
-    {
-      "type": "p",
-      "text": "Good’s family insists that her death will not fade quietly and that they will continue pursuing the truth about what happened on Jan. 7."
-    }
-  ]
+        id: 9,
+        category: 'humanInterest',
+        title: "21-Year-Old Died Trying to Stop a Fight. His Grieving Mom Spent Years Trying to Have a Child with His DNA",
+        description: "After her 21-year-old son Nikolas Evans was killed while trying to break up a fight, Missy Redding embarked on a controversial and deeply personal quest to honor his dream of becoming a father through postmortem sperm retrieval — a journey marked by grief, legal battles and resilience.",
+        image: './images/articles/article9.webp',
+        date: '2026-01-22T19:13:10',
+        "content": [
+            {
+                "type": "p",
+                "text": "Nikolas Evans had dreams that set him apart even as a child. Long before adulthood, he talked about becoming a father and imagined a future filled with children, a vision his mother, Missy Redding, says was central to who he was."
+            },
+            {
+                "type": "p",
+                "text": "That future was abruptly cut short on March 27, 2009, when Evans, then 21, was critically injured while attempting to break up a fight outside a bar in Austin, Texas. A punch to the head caused him to fall and strike the curb, leaving him unconscious."
+            },
+            {
+                "type": "p",
+                "text": "Evans was hospitalized and placed in a medically induced coma. Despite surgeries to relieve pressure and bleeding in his brain, he died days later on April 5. His autopsy listed the cause of death as blunt force trauma to the head."
+            },
+            {
+                type: "img",
+                src: './images/articles/article9_2.webp',
+                caption: "From left: Missy Redding with her sons, Nikolas and Ryan Evans."
+            },
+            {
+                "type": "p",
+                "text": "As Redding grieved, she made a decision that would change the course of her life and spark national attention. In addition to agreeing to organ donation, she sought to have her son’s sperm extracted through a procedure known as postmortem sperm retrieval."
+            },
+            {
+                "type": "p",
+                "text": "Redding recalls thinking that helping her son have a biological child was one of the few remaining ways she could keep his dreams alive. The decision was deeply personal, rooted in grief and a desire to preserve a part of him."
+            },
+            {
+                "type": "p",
+                "text": "At the time, postmortem sperm retrieval was largely unregulated in the United States. With no will, no legal precedent and only a limited window for viability, Redding faced resistance from the hospital and was forced to seek an emergency court order."
+            },
+            {
+                type: "img",
+                src: './images/articles/article9_3.webp',
+                caption: "Nikolas Evans a baby."
+            },
+            {
+                "type": "p",
+                "text": "A Travis County probate judge ultimately ruled in her favor, allowing the procedure to proceed. The ruling drew widespread media attention, along with criticism and ridicule that Redding says took a severe toll on her mental health."
+            },
+            {
+                "type": "p",
+                "text": "Despite the backlash, Redding pressed forward. The sperm extraction was successful, but finding an egg donor and surrogate proved financially and emotionally overwhelming, with costs escalating far beyond what she could afford."
+            },
+            {
+                "type": "p",
+                "text": "With help from an unexpected source — the man who received her son’s donated heart — Redding continued her efforts, even turning to Europe in hopes of completing the process. Ultimately, the attempts to create an embryo were unsuccessful."
+            },
+            {
+                type: "img",
+                src: './images/articles/article9_4.webp',
+                caption: "Nikolas Evans."
+            },
+            {
+                "type": "p",
+                "text": "By 2013, Redding made the decision to step away from her pursuit. More than a decade later, she says she has no regrets, viewing her actions as an expression of love and a way to honor her son’s memory."
+            },
+            {
+                "type": "p",
+                "text": "Today, Redding focuses on preserving Nikolas’ legacy through advocacy. She is pushing for changes to Texas law surrounding so-called ‘one-punch homicides,’ hoping to prevent other families from experiencing the same loss."
+            },
+            {
+                "type": "p",
+                "text": "Though the pain of losing her son remains, Redding says she continues to believe in hope, purpose and the power of turning grief into meaningful change."
+            }
+        ]
     },
 ]
