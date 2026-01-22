@@ -805,4 +805,75 @@ const newsData = [
             }
         ]
     },
+    {
+        id: 12,
+        category: 'humanInterest',
+        title: "2 Dead, Multiple Children Feared Missing After Landslides Strike Homes and Campsite in New Zealand Tourist Area",
+        description: "At least two people have died and several others, including multiple children, are feared missing after powerful landslides tore through homes and a popular campsite in New Zealand’s North Island, triggering an urgent search and rescue operation.",
+        // image: './images/articles/article12.webp',
+        date: '2026-01-23T01:00:12',
+        content: [
+            {
+                type: "p",
+                text: "At least two people are dead and several others remain unaccounted for after devastating landslides struck homes and a popular tourist campsite in New Zealand’s North Island on Thursday, Jan. 22."
+            },
+            {
+                type: "p",
+                text: "Authorities confirmed that two fatalities occurred in the town of Welcome Bay, where a residential property was extensively damaged by a landslide. Police said both victims were found deceased at the scene, and the deaths have been referred to the coroner."
+            },
+            // {
+            //     type: "img",
+            //     src: './images/articles/article12_2.webp',
+            //     caption: "A search is underway for missing people following the Mount Maunganui, New Zealand landslide."
+            // },
+            {
+                type: "p",
+                text: "At the same time, emergency services launched a major search and rescue operation at Mount Maunganui, an extinct volcanic dome known for its beaches, walking trails, and nearby campsites frequented by tourists."
+            },
+            {
+                type: "p",
+                text: "New Zealand Police confirmed that a campsite near Mount Maunganui was evacuated following the landslide, with several people still unaccounted for. Evacuees were directed to a nearby surf club as rescue efforts continued."
+            },
+            {
+                type: "p",
+                text: "Bay of Plenty District Commander Superintendent Tim Anderson said police and Fire and Emergency New Zealand were running multiple rescue operations simultaneously to locate anyone trapped beneath debris."
+            },
+              // {
+            //     type: "img",
+            //     src: './images/articles/article12_3.webp',
+            //     caption: "Officials are pictured at the scene following the Mount Maunganui, New Zealand landslide."
+            // },
+            {
+                type: "p",
+                title: "Children Feared Among the Missing",
+                text: "According to Radio New Zealand, multiple children are believed to be among those missing. Emergency Management Minister Mark Mitchell confirmed that at least one young girl remains unaccounted for, raising fears for other children in the area."
+            },
+            {
+                type: "p",
+                text: "Fire and Emergency commander William Pike said first responders initially heard voices coming from beneath the rubble when they arrived at the scene, though no further sounds have been detected since. Crews insist the search will continue."
+            },
+            {
+                type: "p",
+                text: "Local media reports suggest that up to nine people may be missing, though police have stated the number is believed to be in the single digits as assessments remain ongoing."
+            },
+            {
+                type: "p",
+                title: "Prime Minister Calls Tragedy ‘Profound’",
+                text: "New Zealand Prime Minister Christopher Luxon described the events as a 'profound tragedy,' expressing condolences to families who have lost loved ones and those still waiting for news of missing relatives."
+            },
+            {
+                type: "p",
+                text: "Luxon praised the efforts of emergency responders, volunteers, the Defence Force, and local community members who put themselves at risk to help others during what officials described as a rare 'one in 100 years' weather event."
+            },
+            {
+                type: "p",
+                text: "Eyewitnesses described scenes of panic as the landslide struck suddenly, with people fleeing as debris came down with little warning. Authorities continue to urge the public to avoid affected areas."
+            },
+            {
+                type: "p",
+                text: "As search and rescue efforts continue, officials say support services are in place for affected families, and updates will be shared as more information becomes available."
+            }
+        ]
+    }
+
 ]
