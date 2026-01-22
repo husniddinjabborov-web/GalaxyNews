@@ -41,6 +41,7 @@ const categoryNames = {
     'royals': 'Royals',
     'humanInterest': 'Human Interest',
     'celebrity': 'Celebrity',
+    'health': 'Health',
 };
 
 // 3. Ma'lumotlarni render qilish

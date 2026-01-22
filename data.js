@@ -1001,7 +1001,7 @@ const newsData = [
         title: "Doctor with ALS Says Access to Medical Aid in Dying 'Freed' Him from 'Immeasurable Fear and Dread': 'Enough Is Enough'",
         description: "Dr. Jeremy Boal, a New York City physician diagnosed with ALS, says knowing he will have access to medical aid in dying has freed him from overwhelming fear and allowed him to live more fully despite his terminal illness.",
         // image: './images/articles/article15.webp',
-        date: '2026-01-22T13:36:00',
+        date: '2026-01-23T01:19:14',
         content: [
             {
                 type: "p",
