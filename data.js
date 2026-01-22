@@ -434,53 +434,140 @@ const newsData = [
         category: 'entertainment',
         title: "Oscar Nominations 2026: See the Full List (Live Updates)",
         description: "The 98th Academy Awards nominations are being announced live, with Conan O’Brien set to host the 2026 Oscars. This year also introduces a brand-new category: Best Casting.",
-        image: './images/articles/article6.webp',
+        image: './images/articles/article7.webp',
         date: '2026-01-22T18:48:12',
         "content": [
             {
-                "type": "text",
+                "type": "p",
                 "text": "The nominations for the 98th Academy Awards are officially underway, marking one of the most anticipated moments of the Hollywood awards season."
             },
             {
-                "type": "text",
+                "type": "p",
                 "text": "Actors Danielle Brooks and Lewis Pullman announced the nominees live on Thursday, Jan. 22, at 8:30 a.m. ET, revealing contenders across film, acting and technical categories."
             },
             {
-                "type": "text",
+                "type": "p",
                 "text": "This year introduces a historic addition to the Oscars lineup with the debut of the Best Casting category, recognizing the creative teams behind ensemble performances."
             },
+           
             {
-                "type": "text",
+                "type": "p",
                 "text": "A total of 201 films were eligible for Best Picture consideration in 2026, but only 10 titles earned nominations in the Academy’s top category."
             },
             {
-                "type": "text",
+                "type": "p",
                 "text": "Conan O’Brien will return to host the Academy Awards, which will air live on Sunday, March 15, at 7 p.m. ET on ABC and stream simultaneously on Hulu."
             },
             {
-                "type": "text",
+                "type": "p",
                 "text": "Beginning in 2029, the Oscars broadcast will transition from network television to YouTube, aiming to reach a broader global audience."
             },
             {
-                "type": "text",
+                "type": "p",
                 "text": "Among the acting nominees, Benicio del Toro, Jacob Elordi, Delroy Lindo, Sean Penn and Stellan Skarsgård earned nods for Best Supporting Actor."
             },
             {
-                "type": "text",
+                "type": "video",
+                "videoId": "ZaLpXqSoTlE"
+            },
+            {
+                "type": "p",
                 "text": "The Best Supporting Actress category includes Elle Fanning, Inga Ibsdotter Lilleaas, Amy Madigan, Wunmi Mosaku and Teyana Taylor."
             },
             {
-                "type": "text",
+                "type": "p",
                 "text": "Several films, including One Battle After Another, Sinners, Frankenstein and Sentimental Value, appeared multiple times across major categories."
             },
             {
-                "type": "text",
+                "type": "p",
                 "text": "The list of nominees will continue to update live as announcements are made, with fans and industry insiders reacting in real time."
             },
             {
-                "type": "text",
+                "type": "p",
                 "text": "Winners will be revealed during the 2026 Academy Awards ceremony in March, celebrating the year’s most outstanding cinematic achievements."
             }
         ]
+    },
+    {
+        id: 8,
+        category: 'сrime',
+        title: "Renee Good’s Family Releases Independent Autopsy Showing Where She Was Shot, Attorney Says",
+        description: "An independent autopsy commissioned by Renee Nicole Good’s family reveals new details about the gunshot wounds that killed the 37-year-old mother of three after a fatal encounter with an ICE agent in Minneapolis, intensifying calls for transparency and accountability.",
+        image: './images/articles/article8.webp',
+        date: '2026-01-22T19:02:58',
+       "content": [
+    {
+      "type": "p",
+      "text": "New details surrounding the death of Renee Nicole Good are emerging as her family releases findings from an independent autopsy, shedding further light on the fatal shooting that has sparked national outrage and ongoing protests in Minneapolis."
+    },
+    {
+      "type": "p",
+      "text": "Good, a 37-year-old mother of three, was found unresponsive inside her car on the morning of Jan. 7 after a confrontation with Immigration and Customs Enforcement agent Jonathan Ross. She had just dropped her 6-year-old child off at school before the deadly encounter."
+    },
+
+    {
+      "type": "p",
+      "text": "According to a Minneapolis police and fire department incident report obtained by PEOPLE, Good was discovered around 9:42 a.m. local time with blood on her face and torso while seated in her maroon Honda Pilot."
+    },
+    {
+        type: "img",
+        src: './images/articles/article8_2.webp',
+        caption: "Renee Nicole (left) and Becca Good (right)."
+    },
+    {
+      "type": "p",
+      "text": "The Chicago-based law firm Romanucci & Blandin, which represents Good’s family and previously secured a $27 million settlement for George Floyd’s family, commissioned the independent autopsy as part of its private investigation into the killing."
+    },
+    {
+      "type": "p",
+      "text": "The preliminary findings, conducted by a highly credentialed medical pathologist, identified three clear gunshot wound paths and a fourth graze wound consistent with a firearm injury."
+    },
+    {
+      "type": "p",
+      "text": "According to the report, one bullet struck Good’s left forearm, causing soft tissue hemorrhage. A second traveled through her right breast without damaging major organs. The fatal wound entered near her left temple and exited the right side of her head."
+    },
+    {
+      "type": "p",
+      "text": "The autopsy concluded that the wounds to the breast and forearm were not immediately life-threatening. The head wound was determined to be the cause of death."
+    },
+    {
+        type: "img",
+        src: './images/articles/article8_3.webp',
+        caption: "A poster featuring Renee Good's image on Jan. 8, 2026."
+    },
+    {
+      "type": "p",
+      "text": "The Hennepin County Medical Examiner’s Office has not yet released its official autopsy results to the family or their legal team."
+    },
+    {
+      "type": "p",
+      "text": "Attorney Antonio M. Romanucci said the decision to publicly release the findings reflects the family’s commitment to transparency and accountability as the investigation continues."
+    },
+    {
+      "type": "p",
+      "text": "Jonathan Ross, who joined ICE in 2015 and later served as a firearms instructor and member of the FBI’s Joint Terrorism Task Force, has not been charged with a crime. Federal authorities say the FBI is handling the investigation."
+    },
+    {
+      "type": "p",
+      "text": "The Department of Homeland Security confirmed Ross was taken to the hospital following the shooting with internal injuries, but declined to provide further details. Minnesota officials have called for a fair and transparent investigation."
+    },
+    {
+        type: "img",
+        src: './images/articles/article8_4.webp',
+        caption: "Vigil for Renee Good in January 2026."
+    },
+    {
+      "type": "p",
+      "text": "Despite federal claims labeling Good as a threat, her family strongly disputes that narrative, describing her as a loving mother, devoted partner, and a source of light and optimism to those around her."
+    },
+    {
+      "type": "p",
+      "text": "As protests, vigils, and political debate continue, Good’s partner Becca Good says she is focused on raising their child and honoring Renee’s belief in a better future."
+    },
+    {
+      "type": "p",
+      "text": "Good’s family insists that her death will not fade quietly and that they will continue pursuing the truth about what happened on Jan. 7."
+    }
+  ]
     },
 ]
