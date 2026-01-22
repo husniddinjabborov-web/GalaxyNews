@@ -51,7 +51,6 @@ const newsData = [
         image: './images/articles/article2.webp',
         date: '2026-01-22T02:06:55',
         content: [
-           
             {
                 type: "p",
                 text: "For more than four decades, Vanna White has been a familiar and comforting presence in living rooms across America. As the elegant and ever-smiling co-host of Wheel of Fortune, she has become a television icon, someone audiences feel they know personally. So when news quietly emerged that Vanna White had married her longtime partner John Donaldson, it instantly captured attention, not because of extravagance or spectacle, but because of the deeply personal and heartfelt story behind it."
@@ -141,6 +140,91 @@ const newsData = [
                 text: "In the end, this is not just a story about a wedding. It is a story about patience, emotional clarity, and the beauty of choosing commitment when it feels right, not when it is expected. And for Vanna White, it is yet another example of living life with intention, warmth, and timeless elegance."
             }
         ]
+
+    },
+    {
+        id: 3,
+        category: 'entertainment',
+        title: "Chris Noth Says Friendship with Sarah Jessica Parker Ended After Sexual Assault Allegations",
+        description: "Chris Noth opens up about the painful end of his friendship with Sarah Jessica Parker, claiming her public response to sexual assault allegations against him in 2021 deeply hurt him and changed everything.",
+        image: './images/articles/article3.webp',
+        date: '2026-01-22T13:36:45',
+            content: [
+              {
+                type: "p",
+                text: "For years, Chris Noth and Sarah Jessica Parker were closely associated not only as co-stars, but as creative partners whose on-screen chemistry defined an era of television. To audiences around the world, they were inseparable through their iconic roles on Sex and the City, portraying a relationship filled with complexity, passion, and familiarity. But behind the scenes, their real-life friendship followed a very different path, one that ultimately came to a quiet and painful end."
+              },
+              {
+                type: "p",
+                text: "Now, Chris Noth is opening up about that fallout and the emotional impact it had on him. In a candid interview, he confirms what many fans had long suspected, that he and Sarah Jessica Parker are no longer friends. According to Noth, the breaking point came in the aftermath of sexual assault allegations made against him in 2021, and more specifically, how his former co-star responded publicly to those accusations."
+              },
+              {
+                type: "p",
+                text: "Noth explains that when the allegations surfaced, he felt blindsided not only by the claims themselves, which he has consistently denied, but by the public reaction from people he believed knew him well. Among those reactions was a statement released by Parker alongside their Sex and the City castmates, expressing support for the women who had come forward. For Noth, that statement marked a turning point."
+              },
+              {
+                type: "p",
+                text: "He describes the moment as sad, disappointing, and surprising. From his perspective, the most painful part was not the public nature of the statement, but the lack of a private conversation beforehand. Noth says that after years of working together and knowing each other personally, he expected a phone call, a chance to explain his side of the story before conclusions were drawn in public."
+              },
+              {
+                type: "p",
+                text: "Instead, he felt that the response was more about image and brand protection than personal loyalty. That realization, he says, deeply affected him and ultimately ended the friendship. In his words, it was a moment that revealed where people truly stood, and that knowledge came with both clarity and loss."
+              },
+              {
+                type: "p",
+                text: "The allegations themselves stem from claims made by multiple women, describing encounters that allegedly occurred over several years. Noth has denied all accusations, stating that he would never cross that line and calling the stories complete fabrications. Despite his denials, the public fallout was swift and severe, reshaping both his career and his personal relationships."
+              },
+              {
+                type: "p",
+                text: "Following the allegations, Noth was removed from future involvement in the Sex and the City revival series. His character’s storyline was abruptly altered, and planned appearances were cut. For an actor whose identity was closely tied to that role, the professional consequences were significant, but Noth suggests the personal consequences were even harder to process."
+              },
+              {
+                type: "img",
+                src: './images/articles/article3_2.webp',
+                caption: 'Chris Noth and Sarah Jessica Parker.'
+            },
+              {
+                type: "p",
+                text: "Looking back, Noth reflects on the idea that difficult situations reveal uncomfortable truths. He acknowledges that while the experience came with deep losses, it also brought a form of clarity. He says you learn who your real friends are in moments like these, and while that knowledge is valuable, it does not make the loss any less painful."
+              },
+              {
+                type: "p",
+                text: "Noth adds that had the situation been reversed, he believes he would have handled it differently. He insists that he would have reached out privately before making any public statements, emphasizing that personal history and shared experiences should count for something when navigating moments of crisis."
+              },
+              {
+                type: "p",
+                text: "The tension between the former co-stars resurfaced publicly years later through social media, when Noth reacted to a comment referencing Parker during a celebratory moment in her career. Though brief, the exchange reignited speculation about unresolved resentment and lingering hurt, suggesting that the emotional wounds had never fully healed."
+              },
+             
+              {
+                type: "p",
+                text: "Despite the bitterness evident in his reflections, Noth does not present himself as entirely without perspective. He acknowledges that the broader cultural conversation around accountability and belief has changed dramatically, and that public figures often feel pressured to respond immediately and decisively, sometimes at the expense of personal relationships."
+              },
+              {
+                type: "p",
+                text: "Still, for Noth, the lack of direct communication remains the most painful part. He repeatedly returns to the idea that a simple phone call could have changed everything, or at least preserved some level of mutual respect between people who once shared a deep professional bond."
+              },
+              {
+                type: "p",
+                text: "The story serves as a reminder that fame does not shield anyone from heartbreak or betrayal. In fact, it often magnifies those experiences, turning private pain into public narrative. For Noth, the end of his friendship with Sarah Jessica Parker represents not just a personal loss, but the closing of a chapter that defined much of his career."
+              },
+              {
+                type: "p",
+                text: "As he moves forward, Noth appears focused on acceptance rather than reconciliation. He does not suggest that the friendship will be repaired, instead acknowledging that some relationships, once broken under public pressure, are simply not meant to be restored."
+              },
+              {
+                type: "p",
+                text: "Ultimately, this is not just a story about celebrity conflict. It is a story about trust, silence, and the emotional cost of navigating accusations in the public eye. It highlights how quickly alliances can dissolve when reputation, fear, and public perception enter the equation."
+              },
+              {
+                type: "p",
+                text: "For fans who once believed the bond between these two actors extended beyond the screen, the reality is sobering. The chemistry may live on through reruns and nostalgia, but the friendship behind it belongs firmly to the past."
+              },
+              {
+                type: "p",
+                text: "In sharing his perspective now, Chris Noth offers a glimpse into the personal aftermath of a very public controversy. Whether one agrees with him or not, his words reveal the lasting emotional impact of losing not just a role, but relationships he once believed were unbreakable."
+              }
+            ]          
 
     },
 ]
