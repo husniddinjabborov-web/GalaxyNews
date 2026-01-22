@@ -96,6 +96,7 @@ function createNewsCard(item, isTrending = false) {
         'crime': 'Crime',
         'royals': 'Royals',
         'humanInterest': 'Human Interest',
+        'celebrity': 'Celebrity',
     };
 
     const vaqtMatni = calculateTime(item.date);

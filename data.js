@@ -643,4 +643,80 @@ const newsData = [
             }
         ]
     },
+    {
+        id: 10,
+        category: 'celebrity',
+        title: "Heath Ledger's Shocking Death, 18 Years Later: Remembering the Actor's Final Days and Lasting Legacy",
+        description: "Heath Ledger, acclaimed actor known for roles from '10 Things I Hate About You' to 'The Dark Knight', died in 2008 from an accidental prescription drug overdose. This article revisits his final days, the impact of his roles, and the legacy he left behind, including his daughter Matilda and the Heath Ledger Scholarship.",
+        image: './images/articles/article10.webp',
+        date: '2026-01-22T19:26:54',
+        "content": [
+            {
+                "type": "p",
+                "text": "Heath Ledger’s career was at a high point when he died, with memorable performances ranging from the rom-com '10 Things I Hate About You' to the drama 'Brokeback Mountain'. His portrayal of The Joker in 'The Dark Knight' earned him a posthumous Academy Award."
+            },
+            {
+                "type": "p",
+                "text": "Ledger was pronounced dead at 3:36 p.m. on Jan. 22, 2008, in his New York apartment. The cause of death was later ruled an accidental overdose from the combined effects of prescription medications including oxycodone, hydrocodone, diazepam, temazepam, alprazolam, and doxylamine."
+            },
+            {
+                type: "img",
+                src: './images/articles/article10_2.webp',
+                caption: 'Actor Heath Ledger attends the photocall for "Candy" as part of the 56th Berlin International Film Festival.'
+            },
+            {
+                "type": "p",
+                "text": "Ledger had been struggling physically and emotionally, dealing with a lingering illness and the pressures of work and personal life, according to friends and colleagues. He had expressed exhaustion and unhappiness before his death."
+            },
+            {
+                "type": "p",
+                "text": "In the days before his death, Ledger spoke with his sister Kate and his friend Matt Amato. These conversations were described as lighthearted and affectionate, with no indication of the tragedy to come."
+            },
+            {
+                type: "img",
+                src: './images/articles/article10_3.webp',
+                caption: "Actor Heath Ledger and sister Kate Ledger arrives at the L'Oreal Paris 2006 AFI Awards."
+            },
+            {
+                "type": "p",
+                "text": "Ledger was living in New York while filming 'The Imaginarium of Doctor Parnassus'. On the morning of Jan. 22, 2008, his housekeeper and masseuse found him unresponsive, leading to the arrival of paramedics who pronounced him dead."
+            },
+            {
+                type: "img",
+                src: './images/articles/article10_4.webp',
+                caption: "Heath Ledger, Andrew Garfield in The Imaginarium of Doctor Parnassus."
+            },
+            {
+                "type": "p",
+                "text": "Ledger’s role as The Joker had a profound impact on him off-screen. He isolated himself, kept journals in character, and slept only a few hours per night while preparing for the role, describing the character as a 'psychopathic, mass-murdering, schizophrenic clown'."
+            },
+            {
+                type: "img",
+                src: './images/articles/article10_5.webp',
+                caption: "Heath Ledger The Dark Knight."
+            },
+            {
+                "type": "p",
+                "text": "Public reaction to Ledger’s death was immediate and widespread. Fans gathered outside his Manhattan apartment and the Brooklyn home he had shared with Michelle Williams. Hollywood peers, including Gary Oldman and Daniel Day-Lewis, expressed admiration and grief."
+            },
+            {
+                type: "img",
+                src: './images/articles/article10_6.webp',
+                caption: "Flowers sit outside the townhouse that recently deceased actor Heath Ledger and actress Michelle Williams once shared on Hoyt S."
+            },
+            {
+                "type": "p",
+                "text": "Michelle Williams, Ledger’s former partner and mother of his daughter Matilda, spoke publicly about her heartbreak, emphasizing Ledger’s enduring presence in their daughter’s life."
+            },
+            {
+                type: "img",
+                src: './images/articles/article10_7.webp',
+                caption: "Heath Ledger."
+            },
+            {
+                "type": "p",
+                "text": "Ledger is remembered for his versatile talent and the depth he brought to every role, from teen comedies to dramatic films. He continues to inspire actors and audiences alike through his performances, his daughter Matilda, and the Australians in Film Heath Ledger Scholarship, which supports Australian actors transitioning to Hollywood."
+            }
+        ]
+    },
 ]
