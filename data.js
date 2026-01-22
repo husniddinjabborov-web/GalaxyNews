@@ -429,4 +429,58 @@ const newsData = [
             }
         ]
     },
+    {
+        id: 7,
+        category: 'entertainment',
+        title: "Oscar Nominations 2026: See the Full List (Live Updates)",
+        description: "The 98th Academy Awards nominations are being announced live, with Conan O’Brien set to host the 2026 Oscars. This year also introduces a brand-new category: Best Casting.",
+        image: './images/articles/article6.webp',
+        date: '2026-01-22T18:48:12',
+        "content": [
+            {
+                "type": "text",
+                "text": "The nominations for the 98th Academy Awards are officially underway, marking one of the most anticipated moments of the Hollywood awards season."
+            },
+            {
+                "type": "text",
+                "text": "Actors Danielle Brooks and Lewis Pullman announced the nominees live on Thursday, Jan. 22, at 8:30 a.m. ET, revealing contenders across film, acting and technical categories."
+            },
+            {
+                "type": "text",
+                "text": "This year introduces a historic addition to the Oscars lineup with the debut of the Best Casting category, recognizing the creative teams behind ensemble performances."
+            },
+            {
+                "type": "text",
+                "text": "A total of 201 films were eligible for Best Picture consideration in 2026, but only 10 titles earned nominations in the Academy’s top category."
+            },
+            {
+                "type": "text",
+                "text": "Conan O’Brien will return to host the Academy Awards, which will air live on Sunday, March 15, at 7 p.m. ET on ABC and stream simultaneously on Hulu."
+            },
+            {
+                "type": "text",
+                "text": "Beginning in 2029, the Oscars broadcast will transition from network television to YouTube, aiming to reach a broader global audience."
+            },
+            {
+                "type": "text",
+                "text": "Among the acting nominees, Benicio del Toro, Jacob Elordi, Delroy Lindo, Sean Penn and Stellan Skarsgård earned nods for Best Supporting Actor."
+            },
+            {
+                "type": "text",
+                "text": "The Best Supporting Actress category includes Elle Fanning, Inga Ibsdotter Lilleaas, Amy Madigan, Wunmi Mosaku and Teyana Taylor."
+            },
+            {
+                "type": "text",
+                "text": "Several films, including One Battle After Another, Sinners, Frankenstein and Sentimental Value, appeared multiple times across major categories."
+            },
+            {
+                "type": "text",
+                "text": "The list of nominees will continue to update live as announcements are made, with fans and industry insiders reacting in real time."
+            },
+            {
+                "type": "text",
+                "text": "Winners will be revealed during the 2026 Academy Awards ceremony in March, celebrating the year’s most outstanding cinematic achievements."
+            }
+        ]
+    },
 ]
