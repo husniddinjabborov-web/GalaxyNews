@@ -93,6 +93,7 @@ function renderNews() {
 function createNewsCard(item, isTrending = false) {
     const categoryNames = {
         'entertainment': 'Entertainment',
+        'crime': 'Crime',
     };
 
     const vaqtMatni = calculateTime(item.date);
