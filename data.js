@@ -360,4 +360,73 @@ const newsData = [
             }
         ]
     },
+    {
+        id: 6,
+        category: 'royals',
+        title: "Prince Harry Supports Elizabeth Hurley in Court a Day After Emotional Testimony Against U.K. Tabloids",
+        description: "Prince Harry returned to London’s High Court to support fellow claimant Elizabeth Hurley in their case against the publishers of the Daily Mail, just one day after delivering an emotional testimony about the toll tabloid intrusion has taken on his family.",
+        image: './images/articles/article6.webp',
+        date: '2026-01-22T18:38:47',
+        "content": [
+            {
+                "type": "p",
+                "text": "Prince Harry returned to the High Court in London on Jan. 22 to show his support for actress Elizabeth Hurley, a fellow claimant in the high-profile legal battle against the publishers of the Daily Mail and Mail on Sunday."
+            },
+            {
+                "type": "p",
+                "text": "The Duke of Sussex arrived at court just one day after completing his own emotional testimony, during which he described the lasting impact that years of tabloid intrusion have had on his life and the life of his wife, Meghan Markle."
+            },
+            {
+                "type": "p",
+                "text": "Hurley, who arrived with her son Damian by her side, took the witness stand shortly after 10:30 a.m. local time and was sworn in to give evidence. She is one of several public figures accusing Associated Newspapers of using unlawful methods to obtain private information."
+            },
+            {
+                type: "img",
+                src: './images/articles/article6_2.webp',
+                caption: "Elizabeth Hurley and son Damian Hurley."
+            },
+            {
+                "type": "p",
+                "text": "Other claimants in the case include Elton John and his husband David Furnish, as well as Sadie Frost. Together, they allege that journalists and private investigators employed by the publisher engaged in widespread misconduct over many years."
+            },
+            {
+                "type": "p",
+                "text": "During questioning, Hurley explained why she did not formally complain about articles published between 2002 and 2011, stating that many of the stories were essentially true and reflected moments when she had spoken openly in public."
+            },
+            {
+                type: "img",
+                src: './images/articles/article6_3.webp',
+                caption: "Prince Harry."
+            },
+            {
+                "type": "p",
+                "text": "Midway through her testimony, Hurley became visibly emotional while reviewing articles related to her past relationship with the late Steve Bing, the father of her son. She paused briefly before describing the period as traumatic."
+            },
+            {
+                "type": "p",
+                "text": "Harry sat quietly in the courtroom as Hurley testified. His presence came after his own appearance in the witness box the previous day, where he spoke for nearly two hours about the psychological toll of tabloid coverage."
+            },
+            {
+                "type": "p",
+                "text": "At the close of his testimony on Jan. 21, Harry’s voice broke as he told the judge that continued press intrusion had made Meghan Markle’s life 'an absolute misery' and called for accountability from the media."
+            },
+            {
+                type: "img",
+                src: './images/articles/article6_4.webp',
+                caption: "Prince Harry."
+            },
+            {
+                "type": "p",
+                "text": "Harry said that instead of easing over time, the situation worsened after he initiated legal action, describing the experience as exhausting and deeply distressing for his family."
+            },
+            {
+                "type": "p",
+                "text": "This case marks Harry’s final legal battle against British tabloids. He has previously secured settlements and damages from other publishers, including an eight-figure settlement and apology from The Sun."
+            },
+            {
+                "type": "p",
+                "text": "Following the hearing, Harry was seen leaving the courthouse appearing lighter in mood, briefly smiling and acknowledging supporters before departing."
+            }
+        ]
+    },
 ]
