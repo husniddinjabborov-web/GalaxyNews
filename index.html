@@ -27,15 +27,46 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <form class="d-flex ms-auto w-50">
+                <!-- Search (Desktop da ko'rinadi) -->
+                <form class="d-none d-lg-flex ms-auto w-50">
                     <input class="form-control" type="search" placeholder="Search..." id="searchInput">
                 </form>
+                
+                <!-- Mobile menyu (Search + Kategoriyalar) -->
+                <div class="d-lg-none w-100 mt-3">
+                    <!-- Mobile Search -->
+                    <div class="mb-3">
+                        <input class="form-control" type="search" placeholder="🔍 Search news..." id="searchInputMobile">
+                    </div>
+                    
+                    <!-- Mobile Kategoriyalar -->
+                    <div class="d-flex flex-column gap-2">
+                        <button class="category-btn btn btn-light active w-100" data-category="all">
+                            <i class="fas fa-home"></i> Everything
+                        </button>
+                        <button class="category-btn btn btn-light w-100" data-category="entertainment">
+                            <i class="fas fa-film"></i> Entertainment
+                        </button>
+                        <button class="category-btn btn btn-light w-100" data-category="crime">
+                            <i class="fas fa-user-secret"></i> Crime
+                        </button>
+                        <button class="category-btn btn btn-light w-100" data-category="royals">
+                            <i class="fa-solid fa-crown"></i> Royals
+                        </button>
+                        <button class="category-btn btn btn-light w-100" data-category="humanInterest">
+                            <i class="fa-solid fa-users"></i> Human Interest
+                        </button>
+                        <button class="category-btn btn btn-light w-100" data-category="celebrity">
+                            <i class="fa-solid fa-star"></i> Celebrity
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
     </nav>
 
-    <!-- Categories -->
-    <div class="bg-light py-3 sticky-top" style="top: 56px;">
+    <!-- Categories (faqat Desktop da ko'rinadi) -->
+    <div class="bg-light py-3 sticky-top d-none d-lg-block" style="top: 56px;">
         <div class="container">
             <div class="d-flex flex-wrap justify-content-center">
                 <button class="category-btn btn btn-light active" data-category="all">
@@ -95,27 +126,11 @@
                     <p class="text-white-50">Your latest and most trusted news source</p>
                 </div>
                 <div class="col-md-3 mb-4">
-                    <h5 class="fw-bold mb-3">Departments</h5>
-                    <ul class="list-unstyled text-white-50">
-                        <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Entertainment</a></li>
-                        <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Crime</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3 mb-4">
                     <h5 class="fw-bold mb-3">Company</h5>
                     <ul class="list-unstyled text-white-50">
                         <li class="mb-2"><a href="./about.html" class="text-white-50 text-decoration-none">About us</a></li>
                     </ul>
                 </div>
-                <!-- <div class="col-md-3 mb-4">
-                    <h5 class="fw-bold mb-3">Social networks</h5>
-                    <div>
-                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="social-icon"><i class="fab fa-telegram"></i></a>
-                    </div>
-                </div> -->
             </div>
             <hr class="bg-white-50 my-4">
             <p class="text-center text-white-50 mb-0">&copy; 2026 News. All rights reserved.</p>

@@ -27,7 +27,7 @@
     <div class="container my-5">
         <div class="row justify-content-center">
             <div class="col-lg-8">
-                <a href="index.html" class="btn btn-link text-decoration-none mb-4 ps-0 text-dark">
+                <a href="./" class="btn btn-link text-decoration-none mb-4 ps-0 text-dark">
                     <i class="fas fa-arrow-left me-2"></i>Return to home page
                 </a>
 
@@ -36,6 +36,9 @@
             </div>
         </div>
     </div>
+    <button id="backToTop" class="btn btn-primary rounded-circle shadow" title="Go to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
 
     <footer class="py-5">
         <div class="container">
@@ -43,16 +46,6 @@
                 <div class="col-md-3 mb-4">
                     <h5 class="fw-bold mb-3">Galaxy News</h5>
                     <p class="text-white-50">Your latest and most trusted news source</p>
-                </div>
-                <div class="col-md-3 mb-4">
-                    <h5 class="fw-bold mb-3">Departments</h5>
-                    <ul class="list-unstyled text-white-50">
-                        <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Entertainment</a></li>
-                        <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Crime</a></li>
-                        <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Royals</a></li>
-                        <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Human Interest</a></li>
-                        <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Celebrity</a></li>
-                    </ul>
                 </div>
                 <div class="col-md-3 mb-4">
                     <h5 class="fw-bold mb-3">Company</h5>
@@ -151,6 +144,25 @@
                     <a href="./" class="btn btn-primary mt-3">Back to Home</a>
                 </div>`;
         }
+
+        const backToTopBtn = document.getElementById("backToTop");
+
+// Sahifa aylantirilganda tugmani ko'rsatish/yashirish
+window.onscroll = function() {
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+        backToTopBtn.style.display = "block";
+    } else {
+        backToTopBtn.style.display = "none";
+    }
+};
+
+// Tugma bosilganda tepaga ravon chiqish
+backToTopBtn.addEventListener("click", function() {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});
     </script>
 </body>
 
