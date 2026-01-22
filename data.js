@@ -925,6 +925,153 @@ const newsData = [
                 text: "Stewart described the reunion as meaningful, noting that despite the brief awkwardness, it was special to reconnect with someone who played a role in her early career."
             }
         ]
+    },
+    {
+        id: 14,
+        category: 'royals',
+        title: "Princess Beatrice's Daughter Athena Celebrates Her 1st Birthday After Premature Birth",
+        description: "Princess Beatrice and Edoardo Mapelli Mozzi’s daughter Athena Elizabeth Rose turns 1, marking a milestone after being born prematurely in 2025, with Beatrice previously sharing her emotional experience welcoming her early.",
+        // image: './images/articles/article14.webp',
+        date: '2026-01-23T01:13:39',
+        content: [
+            {
+                type: "p",
+                text: "Princess Beatrice is celebrating a special milestone as her daughter Athena Elizabeth Rose Mapelli Mozzi turns 1 on Jan. 22."
+            },
+            {
+                type: "p",
+                text: "Athena is the youngest child of Princess Beatrice and her husband, Edoardo Mapelli Mozzi, and she was born prematurely in 2025, several weeks earlier than her expected due date."
+            },
+               // {
+            //     type: "img",
+            //     src: './images/articles/article14_2.webp',
+            //     caption: "Edoardo Mapelli Mozzi and Princess Beatrice with their children in London on July 29, 2025."
+            // },
+            {
+                type: "p",
+                text: "Buckingham Palace had originally announced that the baby was due in early spring, but Athena arrived sooner than expected, something Beatrice later reflected on in a rare personal essay."
+            },
+            {
+                type: "p",
+                text: "In the essay, Beatrice described the uncertainty and fear that comes with welcoming a premature baby, writing about the emotional challenges and the lack of control parents feel in such moments."
+            },
+            {
+                type: "p",
+                text: "She shared that Athena arrived healthy despite being tiny, and it took weeks for the family to fully process the relief and reality of life with their newborn."
+            },
+            {
+                type: "p",
+                text: "Following Athena’s birth, Beatrice thanked her medical team at Chelsea and Westminster Hospital and became a patron of Borne, a British medical research charity focused on preventing premature birth."
+            },
+                // {
+            //     type: "img",
+            //     src: './images/articles/article14_3.webp',
+            //     caption: "Princess Beatrice vists Borne research laboratories at Chelsea and Westminster Hospital in London on Nov. 10, 2025."
+            // },
+            {
+                type: "p",
+                text: "The couple made their first major public appearance after Athena’s birth at Borne’s Wonderland Gala, and later visited the charity’s research laboratories to support its work."
+            },
+            {
+                type: "p",
+                text: "Athena’s middle name, Elizabeth, honors the late Queen Elizabeth II, continuing a family naming tradition and tribute."
+            },
+            {
+                type: "p",
+                text: "Beatrice and Edoardo are also parents to daughter Sienna and Edoardo’s son Christopher from a previous relationship, making Athena’s arrival a special moment for their blended family of five."
+            },
+            
+            {
+                type: "p",
+                text: "The family made a rare public appearance together at the London homecoming parade celebrating England’s women’s national football team, which marked Athena’s first public outing."
+            },
+            {
+                type: "p",
+                text: "Athena was christened in a private ceremony at the Chapel Royal at St James’s Palace in December, attended quietly by her grandparents Prince Andrew and Sarah Ferguson."
+            },
+            {
+                type: "p",
+                text: "As Athena celebrates her first birthday, the royal family marks a joyful milestone following a year that began with uncertainty but ended with happiness and growing family memories."
+            }
+        ]
+    },
+    {
+        id: 15,
+        category: 'health',
+        title: "Doctor with ALS Says Access to Medical Aid in Dying 'Freed' Him from 'Immeasurable Fear and Dread': 'Enough Is Enough'",
+        description: "Dr. Jeremy Boal, a New York City physician diagnosed with ALS, says knowing he will have access to medical aid in dying has freed him from overwhelming fear and allowed him to live more fully despite his terminal illness.",
+        // image: './images/articles/article15.webp',
+        date: '2026-01-22T13:36:00',
+        content: [
+            {
+                type: "p",
+                text: "A New York City doctor living with ALS says having access to medical aid in dying has given him peace and freedom from what he describes as immeasurable fear and dread."
+            },
+            {
+                type: "p",
+                text: "Dr. Jeremy Boal, chief clinical officer for Mount Sinai Health System, was diagnosed with amyotrophic lateral sclerosis in August 2023 after experiencing unexplained leg spasms that worsened over time."
+            },
+            {
+                type: "p",
+                text: "Following neurological exams and multiple MRIs, Boal recalled the devastating moment his doctor delivered the diagnosis, describing it as hearing a death sentence that would involve prolonged suffering."
+            },
+            {
+                "type": "video",
+                "videoId": "fLxEhz1lSwM"
+            },
+          
+            {
+                type: "p",
+                text: "ALS, also known as Lou Gehrig’s disease, is a rare degenerative condition that causes progressive muscle paralysis, eventually affecting a person’s ability to speak, eat, walk, and breathe independently."
+            },
+            {
+                type: "p",
+                text: "Boal said his greatest fear was not death itself, but the idea of becoming trapped inside a body that could no longer move or communicate, while remaining mentally aware."
+            },
+            {
+                type: "p",
+                text: "For months after his diagnosis, he described living in a constant state of panic and dread, haunted by visions of a prolonged and painful death caused by ALS."
+            },
+                    // {
+            //     type: "img",
+            //     src: './images/articles/article15_2.webp',
+            //     caption: "Man in a wheelchair."
+            // },
+            {
+                type: "p",
+                text: "Over time, however, Boal said joy slowly returned to his life through therapy, support from loved ones, and the knowledge that he would have the option of medical aid in dying."
+            },
+            {
+                type: "p",
+                text: "Medical aid in dying allows terminally ill patients who meet strict criteria to receive a prescription for medication they can choose to take to end their lives, a process distinct from euthanasia."
+            },
+            {
+                type: "p",
+                text: "Several U.S. states have already authorized medical aid in dying, and New York is expected to join the list after Governor Kathy Hochul announced plans to sign legislation allowing the practice."
+            },
+            {
+                type: "p",
+                text: "Boal said knowing he will be able to decide when his suffering becomes unbearable has allowed him to focus on living fully rather than fearing the future."
+            },
+            {
+                type: "p",
+                text: "He shared that when the law takes effect, he hopes to spend his final moments outdoors with his wife and daughters, surrounded by nature and the life he cherishes."
+            },
+                       // {
+            //     type: "img",
+            //     src: './images/articles/article15_3.webp',
+            //     caption: "Jeremy Boal."
+            // },
+            {
+                type: "p",
+                text: "Today, Boal says he meditates, exercises carefully, advocates for patient choice, and savors everyday experiences that once felt overshadowed by fear."
+            },
+            {
+                type: "p",
+                text: "He believes that access to medical aid in dying has restored his sense of control and allowed him to live more vibrantly in the time he has left."
+            }
+        ]
     }
+    
     
 ]
