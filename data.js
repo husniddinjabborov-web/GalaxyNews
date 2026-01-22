@@ -874,6 +874,57 @@ const newsData = [
                 text: "As search and rescue efforts continue, officials say support services are in place for affected families, and updates will be shared as more information becomes available."
             }
         ]
+    },
+    {
+        id: 13,
+        category: 'entertainment',
+        title: "DWTS Pro Britt Stewart Says Zac Efron Seemed Surprised to See Her at Semi-Finals: 'Clear Zac Does Not Watch the Show'",
+        description: "Dancing with the Stars pro Britt Stewart says reconnecting with former High School Musical costar Zac Efron at the season 34 semi-finals was exciting but awkward, admitting it was clear the actor doesn’t regularly watch the show.",
+        // image: './images/articles/article13.webp',
+        date: '2026-01-23T01:04:48',
+        content: [
+            {
+                type: "p",
+                text: "Dancing with the Stars professional dancer Britt Stewart is opening up about a recent reunion with her former High School Musical costar Zac Efron, revealing that the actor appeared genuinely surprised to see her at the show’s semi-finals."
+            },
+            {
+                type: "p",
+                text: "Efron, 38, attended the Dancing with the Stars season 34 semi-finals on Tuesday, Nov. 18, to support his younger brother Dylan, who was competing on the show. Stewart, 36, is currently a professional dancer on the series."
+            },
+            {
+                type: "p",
+                text: "Viral social media videos captured the moment Stewart approached Efron in the audience, with the two sharing a warm hug and smiles as they briefly caught up after more than a decade without seeing each other."
+            },
+            {
+                type: "p",
+                text: "Speaking on SiriusXM’s Smith Sisters Live on Radio Andy, Stewart said she hadn’t seen Efron in over ten years and wanted their reunion to feel genuine rather than staged for social media. She joked that it was clear Efron does not regularly watch Dancing with the Stars after he seemed confused about why she was there."
+            },
+            {
+                type: "p",
+                text: "Stewart recalled introducing herself and explaining that she is now a professional dancer on the show, describing the interaction as a quick but warm catch-up that ended with a hug."
+            },
+              // {
+            //     type: "img",
+            //     src: './images/articles/article13_2.webp',
+            //     caption: "Britt in High School Musical."
+            // },
+            {
+                type: "p",
+                text: "The reunion comes as the first High School Musical film celebrates its 20th anniversary. The Disney Channel movie premiered on Jan. 20, 2006, and became a cultural phenomenon that launched the careers of Zac Efron, Vanessa Hudgens, and several other stars."
+            },
+            {
+                type: "p",
+                text: "While Efron played basketball star Troy Bolton in the franchise, Stewart appeared as a principal dancer in all three High School Musical films before transitioning into professional dance."
+            },
+            {
+                type: "p",
+                text: "Before joining Dancing with the Stars in 2016, Stewart made history as the first Black female professional dancer on the show. Her career also includes performing with Katy Perry on the Prismatic World Tour and during the 2015 Super Bowl Halftime Show."
+            },
+            {
+                type: "p",
+                text: "Stewart described the reunion as meaningful, noting that despite the brief awkwardness, it was special to reconnect with someone who played a role in her early career."
+            }
+        ]
     }
-
+    
 ]
