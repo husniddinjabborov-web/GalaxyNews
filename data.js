@@ -1095,7 +1095,6 @@ const newsData = [
         description: "Jackée Harry opened up about undergoing a deep-plane facelift in late 2025, sharing why she decided to move forward with the procedure and how it helped her feel more confident and true to herself.",
         image: './images/articles/article18.jpg',
         imageCredit: "Jackée Harry photo by Angela George, CC BY-SA 3.0",
-
         date: '2026-01-23T13:32:41',
         content: [
             {
@@ -1185,6 +1184,125 @@ const newsData = [
             {
                 type: "p",
                 text: "Harry has played Paulina Price on Days of Our Lives since 2021 and continues to stay active in her career."
+            }
+        ]
+    },
+
+    {
+        id: 19,
+        category: 'crime',
+        title: "Lawsuit Claims Lindsay Clancy Was Prescribed Multiple Medications Before Allegedly Killing Her Children",
+        description: "A wrongful death lawsuit filed by Patrick Clancy alleges that his wife Lindsay Clancy was prescribed numerous psychiatric medications in a short period of time before the deaths of their three children.",
+        image: './images/articles/article19.webp',
+        date: '2026-01-23T13:40:28',
+        content: [
+            {
+                type: "p",
+                text: "New court documents detail allegations surrounding the medical treatment Lindsay Clancy received in the months before the deaths of her three children."
+            },
+            {
+                type: "p",
+                text: "The information is outlined in a wrongful death lawsuit filed by her husband, Patrick Clancy, against several medical providers."
+            },
+            {
+                type: "p",
+                text: "The lawsuit was filed on behalf of the estates of the couple’s three children: five-year-old Cora, three-year-old Dawson, and eight-month-old Callan."
+            },
+            {
+                type: "p",
+                text: "According to the filing, Lindsay Clancy was prescribed at least nine medications in the months leading up to the incident."
+            },
+            {
+                type: "p",
+                text: "Eight of those medications were allegedly prescribed within a three-week period between mid-November and early December of 2022."
+            },
+            {
+                type: "p",
+                text: "Patrick Clancy stated that his wife was seeking help for anxiety following the birth of their third child."
+            },
+            {
+                type: "p",
+                text: "The lawsuit claims that her mental condition deteriorated significantly during this time."
+            },
+            {
+                type: "p",
+                text: "Medical records cited in the filing allege that Lindsay began hearing a voice that instructed her to harm herself and her children."
+            },
+            {
+                type: "p",
+                text: "The voice allegedly told her that it was her last chance and that her children needed to go with her."
+            },
+            {
+                type: "p",
+                text: "Patrick Clancy claims that his wife struggled with returning to work after the births of their first two children, but that her condition worsened after the third."
+            },
+            {
+                type: "p",
+                text: "She eventually sought psychiatric care and was first prescribed sertraline, commonly known as Zoloft."
+            },
+            {
+                type: "p",
+                text: "According to the complaint, she delayed taking the medication and later reported severe side effects including insomnia and increased anxiety."
+            },
+            {
+                type: "p",
+                text: "After experiencing prolonged sleep deprivation, she went to the emergency room and was prescribed additional medication."
+            },
+            {
+                type: "p",
+                text: "Over the following weeks, she was prescribed several other medications, including antidepressants, sleep aids, anti-anxiety drugs, and mood stabilizers."
+            },
+            {
+                type: "p",
+                text: "The lawsuit accuses healthcare providers of prescribing powerful medications without properly monitoring her reaction to them."
+            },
+            {
+                type: "p",
+                text: "Patrick Clancy alleges that had proper care been provided, his children would still be alive."
+            },
+            {
+                type: "p",
+                text: "One of the medical providers named in the lawsuit has stated that it cannot comment on the allegations due to ongoing litigation."
+            },
+            {
+                type: "p",
+                text: "Lindsay Clancy is scheduled to go on trial later this year."
+            },
+            {
+                type: "p",
+                text: "Her defense team has indicated plans to pursue an insanity defense, citing postpartum psychosis."
+            },
+            {
+                type: "p",
+                text: "According to court filings, the incident occurred after Patrick Clancy briefly left the home to pick up dinner."
+            },
+            {
+                type: "p",
+                text: "When he returned, he discovered that his wife had jumped from a second-story window."
+            },
+            {
+                type: "p",
+                text: "Emergency responders later found the couple’s three children had been strangled."
+            },
+            {
+                type: "p",
+                text: "The two older children were pronounced dead shortly after arriving at the hospital."
+            },
+            {
+                type: "p",
+                text: "The youngest child died several days later from his injuries."
+            },
+            {
+                type: "p",
+                text: "Patrick Clancy has publicly stated that he forgives his wife and has encouraged others to do the same."
+            },
+            {
+                type: "p",
+                text: "Prosecutors, however, argue that the acts were planned and deliberate."
+            },
+            {
+                type: "p",
+                text: "The trial is currently scheduled to begin in July."
             }
         ]
     }
