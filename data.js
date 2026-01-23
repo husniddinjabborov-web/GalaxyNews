@@ -1305,7 +1305,101 @@ const newsData = [
                 text: "The trial is currently scheduled to begin in July."
             }
         ]
+    },
+
+    {
+        id: 20,
+        category: 'entertainment',
+        title: "Leonardo DiCaprio Refuses to Reveal Who He Was Talking to in Viral Golden Globes Moment",
+        description: "Leonardo DiCaprio addressed his viral Golden Globes moment following his latest Oscar nomination, joking that he won’t reveal who he was chatting with and insisting, “I’m not a rat.”",
+        image: './images/articles/article20.jpg',
+        imageCredit: "Leonardo DiCaprio photo by Shoot for the Stars, CC BY 4.0",
+
+        date: '2026-01-23T13:44:44',
+        content: [
+            {
+                type: "p",
+                text: "Leonardo DiCaprio is keeping the mystery alive when it comes to his viral moment at the 2026 Golden Globes."
+            },
+            {
+                type: "p",
+                text: "The actor was caught on camera laughing and making animated facial expressions while speaking to someone seated just out of view during the awards ceremony."
+            },
+            {
+                type: "p",
+                text: "The clip was shared on social media by the Golden Globes and quickly spread online, prompting widespread speculation about who DiCaprio was speaking with."
+            },
+            {
+                type: "p",
+                text: "Following the viral moment, DiCaprio earned his eighth Oscar nomination for his performance in One Battle After Another."
+            },
+            {
+                type: "p",
+                text: "Shortly after the nomination announcement, the 51-year-old actor addressed the viral clip in an interview."
+            },
+            {
+                type: "p",
+                text: "He confirmed that he was talking to a friend but declined to share any names."
+            },
+            {
+                type: "p",
+                text: "DiCaprio joked that he didn’t know whether the other person would even want to be mentioned publicly."
+            },
+            {
+                type: "p",
+                text: "Referencing a line from A Bronx Tale, the actor quipped that he is “not a rat.”"
+            },
+            {
+                type: "p",
+                text: "Speculation briefly centered on his One Battle After Another costar Teyana Taylor."
+            },
+            {
+                type: "p",
+                text: "Taylor initially suggested they were chatting about how her children love the animated film KPop Demon Hunters."
+            },
+            {
+                type: "p",
+                text: "She later clarified that DiCaprio may have been speaking to someone else during the viral moment."
+            },
+            {
+                type: "p",
+                text: "Taylor joked that DiCaprio seemed to be having multiple enthusiastic conversations about the same topic throughout the night."
+            },
+            {
+                type: "p",
+                text: "During a commercial break, DiCaprio was seen pointing toward the unseen person and laughing as he spoke."
+            },
+            {
+                type: "p",
+                text: "The individual he was addressing did not appear in the video clip shared online."
+            },
+            {
+                type: "p",
+                text: "One Battle After Another had a strong night during awards season."
+            },
+            {
+                type: "p",
+                text: "The film won multiple Golden Globes and received several major nominations across awards bodies."
+            },
+            {
+                type: "p",
+                text: "DiCaprio praised director Paul Thomas Anderson for the film’s depth and political relevance."
+            },
+            {
+                type: "p",
+                text: "He described the movie as original filmmaking that reflects the current state of the world."
+            },
+            {
+                type: "p",
+                text: "The Oscar nomination places DiCaprio among a select group of actors with seven or more Academy Award nominations."
+            },
+            {
+                type: "p",
+                text: "Despite the attention surrounding the viral clip, DiCaprio appears content to keep the identity of his conversation partner private."
+            }
+        ]
     }
+    
     
     
     
