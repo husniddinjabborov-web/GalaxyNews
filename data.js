@@ -1022,7 +1022,7 @@ const newsData = [
         category: 'entertainment',
         title: "Bethenny Frankel Reveals She Has Stage 2 Chronic Kidney Disease and Urges Fans to Get Regular Bloodwork",
         description: "Bethenny Frankel shared that she has been diagnosed with stage 2 chronic kidney disease, explaining how routine blood tests led to the discovery and encouraging others to stay proactive about their health.",
-        image: './images/articles/article18.jpg',
+        image: './images/articles/article17.jpg',
         imageCredit: "Bethenny Frankel photo by Gina Hughes, CC BY 3.0",
         date: '2026-01-23T13:26:27',
         content: [
@@ -1087,7 +1087,108 @@ const newsData = [
                 text: "Frankel added that while she is still learning about her condition, she hopes sharing her experience will help others take their health seriously."
             }
         ]
+    },
+    {
+        id: 18,
+        category: 'entertainment',
+        title: "Jackée Harry Reveals She Underwent a Deep-Plane Facelift and Says She Still Feels Like Herself",
+        description: "Jackée Harry opened up about undergoing a deep-plane facelift in late 2025, sharing why she decided to move forward with the procedure and how it helped her feel more confident and true to herself.",
+        image: './images/articles/article18.jpg',
+        imageCredit: "Jackée Harry photo by Angela George, CC BY-SA 3.0",
+
+        date: '2026-01-23T13:32:41',
+        content: [
+            {
+                type: "p",
+                text: "Jackée Harry has opened up about undergoing a deep-plane facelift and how the experience has impacted her sense of self."
+            },
+            {
+                type: "p",
+                text: "The 69-year-old actress revealed that she had the cosmetic procedure done in the fall of 2025 after considering it for nearly two years."
+            },
+            {
+                type: "p",
+                text: "She explained that she wanted to address loose skin and felt ready to take the step after thinking carefully about it for a long time."
+            },
+            {
+                type: "p",
+                text: "Harry shared that she was very clear about what she wanted from the surgery and described her goal as wanting her skin to feel lifted and refreshed."
+            },
+            {
+                type: "p",
+                text: "Her surgeon described the deep-plane facelift as a procedure that resets facial tissues to their earlier position and noted that it can take several hours to complete."
+            },
+            {
+                type: "p",
+                text: "The actress said she had ongoing conversations with her doctor over the years before finally deciding to move forward."
+            },
+            {
+                type: "p",
+                text: "Reflecting on her younger self, Harry said she always felt confident and glamorous and hoped to reconnect with that feeling."
+            },
+            {
+                type: "p",
+                text: "She also revealed that she looked to other celebrities for inspiration while considering the procedure."
+            },
+            {
+                type: "p",
+                text: "Harry recalled advice she once received to take small steps when it comes to cosmetic work, rather than waiting too long."
+            },
+            {
+                type: "p",
+                text: "Despite her excitement, she admitted she had fears about pain and worried about whether the surgery would change her appearance too much."
+            },
+            {
+                type: "p",
+                text: "She also shared that her boyfriend encouraged her to embrace her natural beauty and reassured her that she did not need the procedure."
+            },
+            {
+                type: "p",
+                text: "Ultimately, Harry decided to move forward after realizing how strongly she wanted it."
+            },
+            {
+                type: "p",
+                text: "Following the healing process, she said the procedure helped her feel more like herself."
+            },
+            {
+                type: "p",
+                text: "Harry openly discussed experiencing body dysmorphia and explained that the facelift helped her reconnect with her identity."
+            },
+            {
+                type: "p",
+                text: "She emphasized that she has no issues with aging and does not feel ashamed of her age."
+            },
+            {
+                type: "p",
+                text: "According to Harry, the procedure did not change who she is but instead enhanced how she feels about herself."
+            },
+            {
+                type: "p",
+                text: "She also acknowledged that cosmetic procedures can become addictive and said she remains cautious about taking things further."
+            },
+            {
+                type: "p",
+                text: "Before the surgery, she worried about whether she would still look like herself afterward."
+            },
+            {
+                type: "p",
+                text: "After seeing the results, she said she felt relieved and confident that she was still recognizably herself."
+            },
+            {
+                type: "p",
+                text: "Looking ahead, Harry shared that she is excited for the moment when she can fully step back into glamorous public appearances."
+            },
+            {
+                type: "p",
+                text: "She said one of the moments she is most looking forward to is walking down the aisle alongside her boyfriend."
+            },
+            {
+                type: "p",
+                text: "Harry has played Paulina Price on Days of Our Lives since 2021 and continues to stay active in her career."
+            }
+        ]
     }
+    
     
     
     
