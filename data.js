@@ -1719,6 +1719,100 @@ const newsData = [
                 text: "The dramatic rescue stands as a powerful reminder that everyday people can become heroes when they choose to act."
             }
         ]
+    },
+    {
+        id: 25,
+        category: 'human-interest',
+        title: "Woman Who Documented Her Terminal Cancer Online Dies at Age 26: 'A Miracle That She Made It This Far'",
+        description: "A young woman who inspired thousands by openly sharing her terminal cancer journey online has died at age 26, leaving behind a legacy of courage, creativity and hope.",
+        image: './images/articles/article25.webp',
+        date: '2026-01-23T23:47:43',
+        content: [
+            {
+                type: "p",
+                text: "Mackenzie Paul, who gained widespread attention for documenting her battle with terminal cancer on social media, has died at the age of 26 after more than two years of fighting the disease."
+            },
+            {
+                type: "p",
+                text: "She first went viral in August 2023 when she began openly sharing her diagnosis and treatment journey, offering raw, honest updates from hospital rooms and intensive care units."
+            },
+            {
+                type: "p",
+                text: "Throughout her illness, Mackenzie used her platform not only to document the physical realities of cancer, but also to share moments of hope, faith and resilience."
+            },
+            {
+                type: "p",
+                text: "Her husband, Brandon, confirmed her passing in an emotional video, describing her as his greatest source of strength and the center of his life."
+            },
+            {
+                type: "p",
+                text: "He shared that while losing her has been devastating, he found comfort in knowing she was no longer in pain after enduring countless hospital stays and medical setbacks."
+            },
+            {
+                type: "p",
+                text: "Mackenzie was first diagnosed with acute myeloid leukemia at just 23 years old while she was a second-year medical student, a moment that instantly changed the course of her life."
+            },
+            {
+                type: "p",
+                text: "Before her diagnosis, she had been healthy, active and deeply focused on her dream of becoming a doctor, never imagining she would soon be fighting for her own life."
+            },
+            {
+                type: "p",
+                text: "Despite the shock and fear, she chose to confront her diagnosis publicly, believing transparency could help others feel less alone in their own struggles."
+            },
+            {
+                type: "p",
+                text: "As her following grew, Mackenzie launched the #TakingBackWhatCancerTookFromMe series, where she celebrated small victories during even the hardest days."
+            },
+            {
+                type: "p",
+                text: "The daily ritual became a source of encouragement for thousands who followed her journey and found comfort in her determination and honesty."
+            },
+            {
+                type: "p",
+                text: "When her cancer returned in 2024, Mackenzie turned to art as a form of healing, discovering a new way to process pain and uncertainty."
+            },
+            {
+                type: "p",
+                text: "What began as simple sketches soon evolved into a powerful creative mission, leading her to launch My Mantra Project."
+            },
+            {
+                type: "p",
+                text: "Through the project, she created portraits of people facing serious life challenges, pairing each image with a personal mantra that reflected strength and perseverance."
+            },
+            {
+                type: "p",
+                text: "She shared each portrait alongside a time-lapse video and voiceover, telling stories of survival, fear, hope and resilience."
+            },
+            {
+                type: "p",
+                text: "Even as her own health declined, Mackenzie remained committed to uplifting others, believing shared stories had the power to heal."
+            },
+            {
+                type: "p",
+                text: "Her faith, creativity and connection with her online community helped her endure moments when the future felt uncertain."
+            },
+            {
+                type: "p",
+                text: "Throughout her journey, her husband remained by her side, supporting her through treatments, setbacks and long hospital stays."
+            },
+            {
+                type: "p",
+                text: "Mackenzie often spoke about how deeply grateful she was for his constant presence, calling him her rock during the most difficult moments of her life."
+            },
+            {
+                type: "p",
+                text: "Though her life was tragically short, those closest to her describe her impact as lasting and far-reaching."
+            },
+            {
+                type: "p",
+                text: "Through vulnerability and courage, Mackenzie transformed her illness into a source of inspiration for people around the world."
+            },
+            {
+                type: "p",
+                text: "Her story continues to live on through the community she built, the art she created and the hope she shared until the very end."
+            }
+        ]
     }
     
 ]
