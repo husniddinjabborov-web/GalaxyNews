@@ -42,6 +42,7 @@ const categoryNames = {
     'humanInterest': 'Human Interest',
     'celebrity': 'Celebrity',
     'health': 'Health',
+    'lifestyle': 'Lifestyle',
 };
 
 // 3. Ma'lumotlarni render qilish

@@ -1467,8 +1467,180 @@ const newsData = [
                 text: "The birthday post showed that while his look may change for fun, Fieri’s playful personality remains the same."
             }
         ]
+    },
+    {
+        id: 22,
+        category: 'crime',
+        title: "Mom Learned Daughter Was Killed After Phone Location Pinged at Coroner’s Office",
+        description: "A Nevada mother searching for her missing daughter made a devastating discovery after tracking her phone’s location, which led her to the coroner’s office following a fatal vehicle collision.",
+        image: './images/articles/article22.webp',
+        date: '2026-01-23T12:55:00',
+        content: [
+            {
+                type: "p",
+                text: "A Nevada mother searching for her daughter made a heartbreaking discovery after tracking her phone’s location and seeing it ping at the Clark County Coroner’s Office in Las Vegas."
+            },
+            {
+                type: "p",
+                text: "Cheri Brown had been trying to reach her daughter, Amber Brown, for hours when the phone location revealed the devastating truth on June 19."
+            },
+            {
+                type: "p",
+                text: "Amber Brown, a 33-year-old nurse, was fatally struck by a vehicle while crossing the street in Las Vegas around 5 p.m. that day."
+            },
+            {
+                type: "p",
+                text: "She was transported to a hospital following the collision but later died from her injuries."
+            },
+            {
+                type: "p",
+                text: "Police arrested 37-year-old Angel Franco Merida at the scene in connection with the fatal incident."
+            },
+            {
+                type: "p",
+                text: "A 14-year-old passenger who was inside the vehicle involved in the collision was rescued without injury."
+            },
+            {
+                type: "p",
+                text: "Amber’s identity was later confirmed through coroner records and social media posts shared by her mother."
+            },
+            {
+                type: "p",
+                text: "Cheri Brown described the moment she learned of her daughter’s death as overwhelming and said she completely broke down."
+            },
+            {
+                type: "p",
+                text: "Adding to her grief is the possibility that the suspect may never face trial for the alleged actions."
+            },
+            {
+                type: "p",
+                text: "After initially appearing before a judge and posting bond, Merida was later taken into custody by immigration authorities."
+            },
+            {
+                type: "p",
+                text: "Court records indicate that he was deported to Guatemala, raising concerns that he may not be brought back to face charges."
+            },
+            {
+                type: "p",
+                text: "Cheri expressed deep frustration, saying she believes her daughter deserves justice regardless of the suspect’s immigration status."
+            },
+            {
+                type: "p",
+                text: "She emphasized that fleeing the country should not allow someone to escape responsibility for a life lost."
+            },
+            {
+                type: "p",
+                text: "The case has left Amber’s family mourning both her death and the uncertainty surrounding accountability."
+            }
+        ]
+    },
+
+    {
+        id: 23,
+        category: 'lifestyle',
+        title: "Woman with Rare Metabolic Disorder Adopts Girl with the Same Disease: 'She's My Mini-Me'",
+        description: "Living with a rare genetic disorder all her life, a woman found deep connection and purpose after adopting a daughter with the same condition, allowing them to face daily challenges and health struggles side by side.",
+        image: './images/articles/article23.webp',
+        date: '2026-01-23T23:34:20',
+        content: [
+            {
+                type: "p",
+                text: "Growing up with a rare genetic disorder, Pam Kowalczyk often felt isolated and misunderstood, struggling with a condition that few people around her truly understood."
+            },
+            {
+                type: "p",
+                text: "Phenylketonuria, known as PKU, affects how the body processes protein and requires constant monitoring, strict dietary limits and lifelong medical management."
+            },
+            {
+                type: "p",
+                text: "Pam was diagnosed at birth and immediately placed on a carefully controlled low-protein diet, which allowed her to protect her cognitive development and live a full, independent life."
+            },
+            {
+                type: "p",
+                text: "As she grew older, doctors warned Pam that pregnancy could pose serious risks because uncontrolled PKU during pregnancy can severely harm a developing baby."
+            },
+            {
+                type: "p",
+                text: "Faced with those realities, Pam made the difficult but determined decision that adoption would be the safest and most responsible way for her to become a parent."
+            },
+            {
+                type: "p",
+                text: "Rather than shy away from challenges, she felt drawn to adopting a child with PKU or another disability she knew she could understand and support."
+            },
+            {
+                type: "p",
+                text: "In 2016, while attending a PKU conference, Pam learned about children around the world waiting for adoption who shared her condition."
+            },
+            {
+                type: "p",
+                text: "When she saw a photo of Kelsey, a young girl living with PKU, Pam felt an instant emotional connection and knew she had found her daughter."
+            },
+            {
+                type: "p",
+                text: "Kelsey had been abandoned as a baby, with a note explaining that she had PKU and needed someone who could care for her medical needs."
+            },
+            {
+                type: "p",
+                text: "Pam trusted her experience and medical knowledge and moved forward with the adoption process, believing she could give Kelsey the life she deserved."
+            },
+            {
+                type: "p",
+                text: "They met for the first time on July 31, 2017, the day the adoption was finalized, and Pam immediately sensed something was wrong."
+            },
+            {
+                type: "p",
+                text: "Kelsey struggled to walk, was completely non-verbal and showed signs of significant developmental delays that concerned Pam deeply."
+            },
+            {
+                type: "p",
+                text: "Medical evaluations later confirmed that Kelsey had suffered irreversible brain damage due to untreated PKU during infancy."
+            },
+            {
+                type: "p",
+                text: "Although Kelsey’s form of PKU is genetically milder than Pam’s, the lack of early treatment drastically changed the course of her development."
+            },
+            {
+                type: "p",
+                text: "Today, Kelsey is 12 years old, but cognitively functions closer to a much younger child and requires daily support."
+            },
+            {
+                type: "p",
+                text: "She uses assistive communication devices, attends speech and occupational therapy, and has learned sign language to help express herself."
+            },
+            {
+                type: "p",
+                text: "Pam manages behavioral challenges with patience, understanding that frustration often comes from Kelsey’s difficulty communicating her needs."
+            },
+            {
+                type: "p",
+                text: "Together, mother and daughter closely monitor their blood levels and carefully track everything they eat to keep their condition under control."
+            },
+            {
+                type: "p",
+                text: "Pam follows an extremely restrictive diet, often relying on medical formula and eating very little solid food throughout the day."
+            },
+            {
+                type: "p",
+                text: "Kelsey, whose condition allows for more flexibility, enjoys a wider range of carefully selected foods."
+            },
+            {
+                type: "p",
+                text: "Despite the daily challenges, their shared condition has created a deep bond built on empathy, strength and mutual understanding."
+            },
+            {
+                type: "p",
+                text: "Medical experts say that growing up with a parent who shares the same condition provides Kelsey with an invaluable built-in support system."
+            },
+            {
+                type: "p",
+                text: "Pam believes their journey together proves that shared hardship can also create powerful connection and resilience."
+            },
+            {
+                type: "p",
+                text: "She often reminds her daughter that no matter how difficult life becomes, they are capable of facing it together."
+            }
+        ]
     }
-    
     
     
 ]
