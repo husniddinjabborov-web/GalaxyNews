@@ -151,6 +151,10 @@ body {
     padding-top: 10px;
     border-top: 1px solid #eee;
 }
+.image-credit {
+    color: #fff; /* yoki qora fon bo‘lsa qora */
+    font-size: 12px;
+}
 
 #backToTop {
     position: fixed;

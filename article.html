@@ -73,8 +73,7 @@
     <script>
         const params = new URLSearchParams(window.location.search);
         const slugFromURL = params.get('title');
-    
-        // Slug yaratish funksiyasi (Solishtirish uchun shart)
+
         function generateSlug(title) {
             return title
                 .toLowerCase()
@@ -83,87 +82,101 @@
                 .replace(/[\s_-]+/g, '-')
                 .replace(/^-+|-+$/g, '');
         }
-    
-        // Maqolani sarlavha (slug) orqali topish
+
         const article = newsData.find(a => generateSlug(a.title) === slugFromURL);
-    
+
         if (article) {
             let contentHTML = "";
-    
-            // JSON ichidagi bloklarni HTMLga aylantirish
+
             article.content.forEach(block => {
+
                 if (block.type === "p") {
-                    contentHTML += `<p class="mb-4 fs-5 text-dark lh-lg" style="text-align: justify;">${block.text}</p>`;
-                } else if (block.type === "h3") {
-                    contentHTML += `<h3 class="mt-5 mb-3 fw-bold text-primary">${block.text}</h3>`;
-                } else if (block.type === "img") {
-                    // Rasm ostidagi matn (Caption) bo'lsa ko'rsatadi, bo'lmasa bo'sh qoldiradi
-                    const captionHTML = block.caption 
-                        ? `<figcaption class="text-muted mt-2 small fst-italic text-center">${block.caption}</figcaption>` 
-                        : "";
-    
                     contentHTML += `
-                    <figure class="my-5 text-center">
-                        <img src="${block.src}" class="img-fluid rounded shadow" alt="news">
-                        ${captionHTML}
-                    </figure>`;
-                } else if (block.type === "video") {
-                    // YouTube iframe qismi
+                    <p class="mb-4 fs-5 text-dark lh-lg" style="text-align: justify;">
+                        ${block.text}
+                    </p>`;
+                }
+
+                else if (block.type === "h3") {
+                    contentHTML += `
+                    <h3 class="mt-5 mb-3 fw-bold text-primary">
+                        ${block.text}
+                    </h3>`;
+                }
+
+                else if (block.type === "img") {
+
+                    const captionHTML = block.caption
+                        ? `<figcaption class="text-muted mt-2 small fst-italic text-center">
+          ${block.caption}
+       </figcaption>`
+                        : "";
+
+                    const creditHTML = block.imageCredit
+                        ? `<div class="text-muted small text-center mt-1">
+          Image credit: ${block.imageCredit}
+       </div>`
+                        : "";
+
+                    contentHTML += `
+    <figure class="my-5 text-center">
+        <img src="${block.src}" class="img-fluid rounded shadow" alt="news image">
+        ${captionHTML}
+        ${creditHTML}
+    </figure>
+`;
+                }
+
+
+                else if (block.type === "video") {
                     contentHTML += `
                     <div class="ratio ratio-16x9 my-5 shadow-sm rounded overflow-hidden">
-                        <iframe src="https://www.youtube.com/embed/${block.videoId}" 
-                            title="YouTube video player" frameborder="0" 
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        <iframe src="https://www.youtube.com/embed/${block.videoId}"
+                            frameborder="0"
                             allowfullscreen></iframe>
                     </div>`;
                 }
             });
+
+            document.getElementById('contentArea').innerHTML = `
+            <span class="badge bg-primary mb-3 text-uppercase px-3 py-2">
+                ${article.category}
+            </span>
     
-            // Sahifaga ma'lumotlarni chiqarish
-            document.getElementById('contentArea').innerHTML = `
-                <span class="badge bg-primary mb-3 text-uppercase px-3 py-2">${article.category}</span>
-                <h1 class="display-4 fw-bold mb-4">${article.title}</h1>
-                <div class="mb-4 text-center">
-                    <img src="${article.image}" alt="${article.title}" class="img-fluid rounded shadow w-100">
-                </div>
-                <div class="d-flex align-items-center text-muted mb-5 border-bottom pb-4">
-                    <span><i class="fas fa-calendar-alt me-2"></i> ${new Date(article.date).toLocaleDateString('en-US')}</span>
-                </div>
-                <div class="article-body">
-                    ${contentHTML}
-                </div>
-            `;
+            <h1 class="display-4 fw-bold mb-4">${article.title}</h1>
+    
+            <div class="mb-4 text-center">
+                <img src="${article.image}" alt="${article.title}" class="img-fluid rounded shadow w-100">
+                ${article.imageCredit
+                    ? `<div class="text-muted small mt-2">Image credit: ${article.imageCredit}</div>`
+                    : ""}
+            </div>
+    
+            <div class="d-flex align-items-center text-muted mb-5 border-bottom pb-4">
+                <span>
+                    <i class="fas fa-calendar-alt me-2"></i>
+                    ${new Date(article.date).toLocaleDateString('en-US')}
+                </span>
+            </div>
+    
+            <div class="article-body">
+                ${contentHTML}
+            </div>
+        `;
+
             document.title = article.title;
+
         } else {
-            // Maqola topilmagandagi holat
             document.getElementById('contentArea').innerHTML = `
-                <div class="text-center mt-5">
-                    <i class="fas fa-exclamation-triangle fa-3x text-warning mb-3"></i>
-                    <h2 class="fw-bold">Sorry, article not found!</h2>
-                    <p class="text-muted">The article may have been moved or deleted.</p>
-                    <a href="./" class="btn btn-primary mt-3">Back to Home</a>
-                </div>`;
+            <div class="text-center mt-5">
+                <i class="fas fa-exclamation-triangle fa-3x text-warning mb-3"></i>
+                <h2 class="fw-bold">Sorry, article not found!</h2>
+                <p class="text-muted">The article may have been moved or deleted.</p>
+                <a href="./" class="btn btn-primary mt-3">Back to Home</a>
+            </div>`;
         }
-
-        const backToTopBtn = document.getElementById("backToTop");
-
-// Sahifa aylantirilganda tugmani ko'rsatish/yashirish
-window.onscroll = function() {
-    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-        backToTopBtn.style.display = "block";
-    } else {
-        backToTopBtn.style.display = "none";
-    }
-};
-
-// Tugma bosilganda tepaga ravon chiqish
-backToTopBtn.addEventListener("click", function() {
-    window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-    });
-});
     </script>
+
 </body>
 
 </html>

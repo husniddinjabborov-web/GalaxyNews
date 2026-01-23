@@ -80,10 +80,15 @@ function renderNews() {
                         <h1 class="display-5 fw-bold mb-3">${main.title}</h1>
                         <p class="card-text lead mb-3 text-white-50">${main.description}</p>
                         <div class="d-flex align-items-center text-white-50">
-                            <span><i class="fas fa-clock me-2"></i>${calculateTime(main.date)}</span>
+                            <span><i class="fas fa-clock me-2"></i>${calculateTime(main.date)}</span>                     
                         </div>
                     </div>
                 </div>
+                 ${main.imageCredit ? `
+                                <div class="image-credit text-white-50 mt-2" style="font-size:12px;">
+                                    ${main.imageCredit}
+                                </div>
+                            ` : ''}       
             </a>`;
         featuredSection.style.display = 'block';
     } else {
@@ -120,13 +125,25 @@ function createNewsCard(item, isTrending = false) {
     <div class="col-md-${isTrending ? '4' : '6'} col-lg-4">
         <a href="article.html?title=${slug}" class="text-decoration-none text-dark">
             <div class="card news-card h-100"> 
-                <img src="${item.image}" class="card-img-top" onerror="this.src='https://via.placeholder.com/400x250?text=No+Image'">
+                <img src="${item.image}" class="card-img-top"
+                     alt="${item.title}"
+                     onerror="this.src='https://via.placeholder.com/400x250?text=No+Image'">
+
                 <div class="card-body d-flex flex-column">
                     <span class="badge ${isTrending ? 'trending-badge' : 'badge-category'} mb-2">
                         ${catName}
                     </span>
+
                     <h5 class="card-title fw-bold">${item.title}</h5>
                     <p class="card-text text-muted small">${item.description}</p>
+
+                    <!-- 🔹 IMAGE CREDIT -->
+                    ${item.imageCredit ? `
+                        <p class="small text-muted mt-2" style="font-size: 11px;">
+                            ${item.imageCredit}
+                        </p>
+                    ` : ''}
+
                     <div class="mt-auto pt-3 d-flex justify-content-between align-items-center text-muted small">
                         <span><i class="fas fa-clock me-1"></i>${vaqt}</span>
                         <span class="text-primary">More →</span>
@@ -136,6 +153,7 @@ function createNewsCard(item, isTrending = false) {
         </a>
     </div>`;
 }
+
 
 // --- EVENT LISTENERS (HODISALAR) ---
 

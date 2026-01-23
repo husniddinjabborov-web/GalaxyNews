@@ -4,7 +4,8 @@ const newsData = [
         category: 'entertainment',
         title: "Blake Lively and Taylor Swift’s Private Texts Reveal the Quiet Strain That Changed Their Friendship",
         description: "Newly revealed private messages offer a rare, emotional look into the behind-the-scenes struggles that slowly created distance between Blake Lively and Taylor Swift. From exhaustion and miscommunication to fear, trauma, and unspoken expectations, this story explores how even the strongest friendships can begin to fracture long before the public ever notices.",
-        // image: './images/articles/article1.webp',
+        image: './images/articles/article1.png',
+        imageCredit: "Composite image: Taylor Swift photo by iHeartRadioCA / Wikimedia Commons (CC BY 3.0); Blake Lively photo by MTV International / Wikimedia Commons (CC BY 3.0)",
         date: '2026-01-21T23:10:58',
         content: [
             { type: "p", text: "Imagine two of the most recognizable women in modern pop culture, women whose friendship once seemed effortless, supportive, and even aspirational to fans around the world. For years, Blake Lively and Taylor Swift were seen as inseparable, appearing together at private parties, family gatherings, and high-profile events, projecting an image of loyalty and deep understanding. But behind the polished smiles and public appearances, something far more complicated was unfolding. Private text messages later revealed would offer an intimate and emotionally raw look into how and why their friendship began to fracture long before the public ever noticed." },
@@ -48,7 +49,7 @@ const newsData = [
         category: 'entertainment',
         title: "Vanna White Marries Longtime Partner John Donaldson in a Private and Heartfelt Ceremony",
         description: "After more than a decade together, Wheel of Fortune icon Vanna White and her longtime love John Donaldson have officially tied the knot. The couple shared their joyful surprise wedding news with fans, opening up about love, timing, and why making it official felt right at this moment in their lives.",
-        // image: './images/articles/article2.webp',
+        image: './images/articles/article2.jpg',
         date: '2026-01-22T02:06:55',
         content: [
             {
@@ -63,10 +64,6 @@ const newsData = [
                 type: "p",
                 text: "Vanna and John have been together for more than a decade, building a relationship rooted in ease, mutual respect, and genuine affection. Their love story began in 2012 when a mutual friend introduced John Donaldson, a California-based real estate developer, to Vanna at a casual backyard barbecue. There was no grand setup, no dramatic first meeting. Just two people talking, connecting, and realizing something special was forming."
             },
-            // {
-            //     type: "img",
-            //     src: './images/articles/article2_2.webp',
-            // },
             {
                 type: "p",
                 text: "Vanna later recalled that she was instantly drawn to John, remembering how they talked for hours that very first night. What stood out wasn’t just attraction, but comfort. From the beginning, their connection felt natural, unforced, and refreshingly simple. That ease would go on to define their relationship for years to come."
@@ -91,10 +88,6 @@ const newsData = [
                 type: "p",
                 text: "As the years passed, their bond only deepened. Without fanfare or pressure, the idea of making things official slowly became something they wanted to do for themselves, not for tradition or public approval. At some point, they decided that a private ceremony felt right, something intimate and meaningful, shared only with those closest to them."
             },
-            // {
-            //     type: "img",
-            //     src: './images/articles/article2_3.webp',
-            // },
             {
                 type: "p",
                 text: "When they finally tied the knot, it wasn’t presented as a long-awaited event, but rather as a joyful surprise. The tone of their announcement reflected happiness and peace, as if this was simply the next natural step in a journey they were already fully committed to walking together."
@@ -115,10 +108,6 @@ const newsData = [
                 type: "p",
                 text: "Vanna has often described John as the male version of herself, noting how similar they are in personality and outlook. That similarity has allowed them to move through life together with ease, supporting one another without competition or conflict. Their connection appears to be built on partnership rather than performance."
             },
-            // {
-            //     type: "img",
-            //     src: './images/articles/article2_4.webp',
-            // },
             {
                 type: "p",
                 text: "As Vanna continues her long-standing role on Wheel of Fortune, now in a new chapter following Pat Sajak’s retirement, this personal milestone adds another layer to her story. It reflects a woman who has navigated fame, heartbreak, success, and longevity, and who still believes in love on her own terms."
@@ -147,7 +136,8 @@ const newsData = [
         category: 'entertainment',
         title: "Chris Noth Says Friendship with Sarah Jessica Parker Ended After Sexual Assault Allegations",
         description: "Chris Noth opens up about the painful end of his friendship with Sarah Jessica Parker, claiming her public response to sexual assault allegations against him in 2021 deeply hurt him and changed everything.",
-        // image: './images/articles/article3.webp',
+        image: './images/articles/article3.png',
+        imageCredit: "Chris Noth photo by Seductivemelody, derivative work by Matthewedwards, CC BY-SA 3.0; Sarah Jessica Parker photo by Shawn Miller/Library of Congress, CC0",
         date: '2026-01-22T13:36:45',
         content: [
             {
@@ -178,11 +168,6 @@ const newsData = [
                 type: "p",
                 text: "Following the allegations, Noth was removed from future involvement in the Sex and the City revival series. His character’s storyline was abruptly altered, and planned appearances were cut. For an actor whose identity was closely tied to that role, the professional consequences were significant, but Noth suggests the personal consequences were even harder to process."
             },
-            // {
-            //     type: "img",
-            //     src: './images/articles/article3_2.webp',
-            //     caption: 'Chris Noth and Sarah Jessica Parker.'
-            // },
             {
                 type: "p",
                 text: "Looking back, Noth reflects on the idea that difficult situations reveal uncomfortable truths. He acknowledges that while the experience came with deep losses, it also brought a form of clarity. He says you learn who your real friends are in moments like these, and while that knowledge is valuable, it does not make the loss any less painful."
@@ -232,7 +217,7 @@ const newsData = [
         category: 'crime',
         title: "Former Uvalde School Police Officer Acquitted on All Charges Over Response to 2022 Robb Elementary Shooting",
         description: "Former Uvalde school district police officer Adrian Gonzales has been found not guilty on all charges related to his response to the 2022 Robb Elementary School shooting that killed 19 students and two teachers.",
-        // image: './images/articles/article4.webp',
+        image: './images/articles/article4.jpg',
         date: '2026-01-22T13:56:20',
         "content": [
             {
@@ -259,11 +244,6 @@ const newsData = [
                 "type": "p",
                 "text": "A Justice Department report later revealed that nearly 400 officers from local, state, and federal agencies responded to the shooting, citing widespread failures in leadership, communication, tactics, and training during the response."
             },
-            // {
-            //     type: "img",
-            //     src: './images/articles/article4_2.webp',
-            //     caption: 'Law enforcement work the scene after a mass shooting at Robb Elementary School.'
-            // },
             {
                 "type": "p",
                 "text": "Prosecutors argued that Gonzales and other officers failed to act quickly enough to stop the gunman, placing children in continued danger. Under Texas law, child endangerment charges are considered a felony, carrying potential jail time if convicted."
@@ -281,11 +261,6 @@ const newsData = [
                 "type": "p",
                 "text": "Following the verdict, Gonzales thanked God, his family, his defense attorneys, and the jury for considering all the evidence. When asked whether he had a message for the victims’ families, he declined to comment."
             },
-            // {
-            //     type: "img",
-            //     src: './images/articles/article4_3.webp',
-            //     caption: 'The outside of Robb Elementary School on May 31, 2022 in Uvalde, Texas.'
-            // },
             {
                 "type": "p",
                 "text": "Former Uvalde school police chief Pete Arredondo also faces similar charges and has pleaded not guilty. His case has been delayed indefinitely due to complications involving a federal lawsuit and the inability to interview certain federal agents."
@@ -301,7 +276,8 @@ const newsData = [
         category: 'entertainment',
         title: "A$AP Rocky Addresses Drake Feud Rumors, Says Relationship Is Over: ‘I Just Don’t F--k with Him’",
         description: "A$AP Rocky has spoken candidly about his strained relationship with Drake, addressing long-standing feud rumors and clarifying that while there is no real ‘beef,’ their friendship has ended following shared romantic history with Rihanna.",
-        // image: './images/articles/article5.webp',
+        image: './images/articles/article5.png',
+        imageCredit: "Chris Noth photo by Seductivemelody, derivative work by Matthewedwards, CC BY-SA 3.0; Sarah Jessica Parker photo by Shawn Miller/Library of Congress, CC0; A$AP Rocky photo by Gabriel Hutchinson, CC BY-SA 4.0; Drake photo by GabboT, CC BY-SA 2.0",
         date: '2026-01-22T14:07:28',
         "content": [
             {
@@ -320,11 +296,6 @@ const newsData = [
                 "type": "p",
                 "text": "“This thing between us, it’s not real smoke,” Rocky explained, before bluntly adding, “But I just don’t f--k with him,” confirming that any former friendship between the two has effectively ended."
             },
-            // {
-            //     type: "img",
-            //     src: './images/articles/article5_2.webp',
-            //     caption: 'A$AP Rocky and Drake, 2013 FIFA 14 Launch event in New York City.'
-            // },
             {
                 "type": "p",
                 "text": "The two rappers were once close collaborators and friends, but their relationship cooled over time as both men were romantically involved with Rihanna. Drake and the singer shared an on-and-off relationship for nearly a decade, while Rihanna later began a long-term partnership with Rocky."
@@ -337,11 +308,6 @@ const newsData = [
                 "type": "p",
                 "text": "“We were once friends,” Rocky said, adding that the situation became uncomfortable as time went on. He criticized what he viewed as unnecessary fixation, saying it felt immature given their age, success and status."
             },
-            // {
-            //     type: "img",
-            //     src: './images/articles/article5_3.webp',
-            //     caption: "Rihanna and A$AP Rocky at the 'Black Panther: Wakanda Forever' premiere in Hollywood."
-            // },
             {
                 "type": "p",
                 "text": "Speculation about the feud intensified following the release of Rocky’s album ‘Don’t Be Dumb,’ particularly the track ‘Stole Ya Flow,’ which fans interpreted as a direct jab at Drake."
@@ -365,7 +331,8 @@ const newsData = [
         category: 'royals',
         title: "Prince Harry Supports Elizabeth Hurley in Court a Day After Emotional Testimony Against U.K. Tabloids",
         description: "Prince Harry returned to London’s High Court to support fellow claimant Elizabeth Hurley in their case against the publishers of the Daily Mail, just one day after delivering an emotional testimony about the toll tabloid intrusion has taken on his family.",
-        // image: './images/articles/article6.webp',
+        image: './images/articles/article6.png',
+        imageCredit: "A$AP Rocky photo by Gabriel Hutchinson, CC BY-SA 4.0; Drake photo by GabboT, CC BY-SA 2.0; Prince Harry photo by Sjoerd Hilckmann/Media Centrum Defensie, CC BY-SA 4.0; Richard Boddington and Elizabeth Hurley photo by Indopug, CC BY-SA 2.0",
         date: '2026-01-22T18:38:47',
         "content": [
             {
@@ -380,11 +347,6 @@ const newsData = [
                 "type": "p",
                 "text": "Hurley, who arrived with her son Damian by her side, took the witness stand shortly after 10:30 a.m. local time and was sworn in to give evidence. She is one of several public figures accusing Associated Newspapers of using unlawful methods to obtain private information."
             },
-            // {
-            //     type: "img",
-            //     src: './images/articles/article6_2.webp',
-            //     caption: "Elizabeth Hurley and son Damian Hurley."
-            // },
             {
                 "type": "p",
                 "text": "Other claimants in the case include Elton John and his husband David Furnish, as well as Sadie Frost. Together, they allege that journalists and private investigators employed by the publisher engaged in widespread misconduct over many years."
@@ -393,11 +355,6 @@ const newsData = [
                 "type": "p",
                 "text": "During questioning, Hurley explained why she did not formally complain about articles published between 2002 and 2011, stating that many of the stories were essentially true and reflected moments when she had spoken openly in public."
             },
-            // {
-            //     type: "img",
-            //     src: './images/articles/article6_3.webp',
-            //     caption: "Prince Harry."
-            // },
             {
                 "type": "p",
                 "text": "Midway through her testimony, Hurley became visibly emotional while reviewing articles related to her past relationship with the late Steve Bing, the father of her son. She paused briefly before describing the period as traumatic."
@@ -410,11 +367,6 @@ const newsData = [
                 "type": "p",
                 "text": "At the close of his testimony on Jan. 21, Harry’s voice broke as he told the judge that continued press intrusion had made Meghan Markle’s life 'an absolute misery' and called for accountability from the media."
             },
-            // {
-            //     type: "img",
-            //     src: './images/articles/article6_4.webp',
-            //     caption: "Prince Harry."
-            // },
             {
                 "type": "p",
                 "text": "Harry said that instead of easing over time, the situation worsened after he initiated legal action, describing the experience as exhausting and deeply distressing for his family."
@@ -434,7 +386,7 @@ const newsData = [
         category: 'entertainment',
         title: "Oscar Nominations 2026: See the Full List (Live Updates)",
         description: "The 98th Academy Awards nominations are being announced live, with Conan O’Brien set to host the 2026 Oscars. This year also introduces a brand-new category: Best Casting.",
-        // image: './images/articles/article7.webp',
+        image: './images/articles/article7.jpg',
         date: '2026-01-22T18:48:12',
         "content": [
             {
@@ -493,7 +445,7 @@ const newsData = [
         category: 'сrime',
         title: "Renee Good’s Family Releases Independent Autopsy Showing Where She Was Shot, Attorney Says",
         description: "An independent autopsy commissioned by Renee Nicole Good’s family reveals new details about the gunshot wounds that killed the 37-year-old mother of three after a fatal encounter with an ICE agent in Minneapolis, intensifying calls for transparency and accountability.",
-        // image: './images/articles/article8.webp',
+        image: './images/articles/article8.webp',
         date: '2026-01-22T19:02:58',
         "content": [
             {
@@ -509,11 +461,6 @@ const newsData = [
                 "type": "p",
                 "text": "According to a Minneapolis police and fire department incident report obtained by PEOPLE, Good was discovered around 9:42 a.m. local time with blood on her face and torso while seated in her maroon Honda Pilot."
             },
-            // {
-            //     type: "img",
-            //     src: './images/articles/article8_2.webp',
-            //     caption: "Renee Nicole (left) and Becca Good (right)."
-            // },
             {
                 "type": "p",
                 "text": "The Chicago-based law firm Romanucci & Blandin, which represents Good’s family and previously secured a $27 million settlement for George Floyd’s family, commissioned the independent autopsy as part of its private investigation into the killing."
@@ -530,11 +477,11 @@ const newsData = [
                 "type": "p",
                 "text": "The autopsy concluded that the wounds to the breast and forearm were not immediately life-threatening. The head wound was determined to be the cause of death."
             },
-            // {
-            //     type: "img",
-            //     src: './images/articles/article8_3.webp',
-            //     caption: "A poster featuring Renee Good's image on Jan. 8, 2026."
-            // },
+            {
+                type: "img",
+                src: './images/articles/article8_2.webp',
+                caption: "A poster featuring Renee Good's image on Jan. 8, 2026."
+            },
             {
                 "type": "p",
                 "text": "The Hennepin County Medical Examiner’s Office has not yet released its official autopsy results to the family or their legal team."
@@ -551,11 +498,11 @@ const newsData = [
                 "type": "p",
                 "text": "The Department of Homeland Security confirmed Ross was taken to the hospital following the shooting with internal injuries, but declined to provide further details. Minnesota officials have called for a fair and transparent investigation."
             },
-            // {
-            //     type: "img",
-            //     src: './images/articles/article8_4.webp',
-            //     caption: "Vigil for Renee Good in January 2026."
-            // },
+            {
+                type: "img",
+                src: './images/articles/article8_3.webp',
+                caption: "Vigil for Renee Good in January 2026."
+            },
             {
                 "type": "p",
                 "text": "Despite federal claims labeling Good as a threat, her family strongly disputes that narrative, describing her as a loving mother, devoted partner, and a source of light and optimism to those around her."
@@ -575,7 +522,7 @@ const newsData = [
         category: 'humanInterest',
         title: "21-Year-Old Died Trying to Stop a Fight. His Grieving Mom Spent Years Trying to Have a Child with His DNA",
         description: "After her 21-year-old son Nikolas Evans was killed while trying to break up a fight, Missy Redding embarked on a controversial and deeply personal quest to honor his dream of becoming a father through postmortem sperm retrieval — a journey marked by grief, legal battles and resilience.",
-        // image: './images/articles/article9.webp',
+        image: './images/articles/article9.jpg',
         date: '2026-01-22T19:13:10',
         "content": [
             {
@@ -590,11 +537,6 @@ const newsData = [
                 "type": "p",
                 "text": "Evans was hospitalized and placed in a medically induced coma. Despite surgeries to relieve pressure and bleeding in his brain, he died days later on April 5. His autopsy listed the cause of death as blunt force trauma to the head."
             },
-            // {
-            //     type: "img",
-            //     src: './images/articles/article9_2.webp',
-            //     caption: "From left: Missy Redding with her sons, Nikolas and Ryan Evans."
-            // },
             {
                 "type": "p",
                 "text": "As Redding grieved, she made a decision that would change the course of her life and spark national attention. In addition to agreeing to organ donation, she sought to have her son’s sperm extracted through a procedure known as postmortem sperm retrieval."
@@ -607,11 +549,6 @@ const newsData = [
                 "type": "p",
                 "text": "At the time, postmortem sperm retrieval was largely unregulated in the United States. With no will, no legal precedent and only a limited window for viability, Redding faced resistance from the hospital and was forced to seek an emergency court order."
             },
-            // {
-            //     type: "img",
-            //     src: './images/articles/article9_3.webp',
-            //     caption: "Nikolas Evans a baby."
-            // },
             {
                 "type": "p",
                 "text": "A Travis County probate judge ultimately ruled in her favor, allowing the procedure to proceed. The ruling drew widespread media attention, along with criticism and ridicule that Redding says took a severe toll on her mental health."
@@ -624,11 +561,6 @@ const newsData = [
                 "type": "p",
                 "text": "With help from an unexpected source — the man who received her son’s donated heart — Redding continued her efforts, even turning to Europe in hopes of completing the process. Ultimately, the attempts to create an embryo were unsuccessful."
             },
-            // {
-            //     type: "img",
-            //     src: './images/articles/article9_4.webp',
-            //     caption: "Nikolas Evans."
-            // },
             {
                 "type": "p",
                 "text": "By 2013, Redding made the decision to step away from her pursuit. More than a decade later, she says she has no regrets, viewing her actions as an expression of love and a way to honor her son’s memory."
@@ -648,7 +580,8 @@ const newsData = [
         category: 'celebrity',
         title: "Heath Ledger's Shocking Death, 18 Years Later: Remembering the Actor's Final Days and Lasting Legacy",
         description: "Heath Ledger, acclaimed actor known for roles from '10 Things I Hate About You' to 'The Dark Knight', died in 2008 from an accidental prescription drug overdose. This article revisits his final days, the impact of his roles, and the legacy he left behind, including his daughter Matilda and the Heath Ledger Scholarship.",
-        // image: './images/articles/article10.webp',
+        image: './images/articles/article10.jpg',
+        "imageCredit": "Photo by Howie Berlin, CC BY-SA 2.0",
         date: '2026-01-22T19:26:54',
         "content": [
             {
@@ -659,11 +592,11 @@ const newsData = [
                 "type": "p",
                 "text": "Ledger was pronounced dead at 3:36 p.m. on Jan. 22, 2008, in his New York apartment. The cause of death was later ruled an accidental overdose from the combined effects of prescription medications including oxycodone, hydrocodone, diazepam, temazepam, alprazolam, and doxylamine."
             },
-            // {
-            //     type: "img",
-            //     src: './images/articles/article10_2.webp',
-            //     caption: 'Actor Heath Ledger attends the photocall for "Candy" as part of the 56th Berlin International Film Festival.'
-            // },
+            {
+                type: "img",
+                src: './images/articles/article10_2.webp',
+                caption: "Heath Ledger, Andrew Garfield in The Imaginarium of Doctor Parnassus."
+            },
             {
                 "type": "p",
                 "text": "Ledger had been struggling physically and emotionally, dealing with a lingering illness and the pressures of work and personal life, according to friends and colleagues. He had expressed exhaustion and unhappiness before his death."
@@ -672,59 +605,42 @@ const newsData = [
                 "type": "p",
                 "text": "In the days before his death, Ledger spoke with his sister Kate and his friend Matt Amato. These conversations were described as lighthearted and affectionate, with no indication of the tragedy to come."
             },
-            // {
-            //     type: "img",
-            //     src: './images/articles/article10_3.webp',
-            //     caption: "Actor Heath Ledger and sister Kate Ledger arrives at the L'Oreal Paris 2006 AFI Awards."
-            // },
             {
                 "type": "p",
                 "text": "Ledger was living in New York while filming 'The Imaginarium of Doctor Parnassus'. On the morning of Jan. 22, 2008, his housekeeper and masseuse found him unresponsive, leading to the arrival of paramedics who pronounced him dead."
             },
-            // {
-            //     type: "img",
-            //     src: './images/articles/article10_4.webp',
-            //     caption: "Heath Ledger, Andrew Garfield in The Imaginarium of Doctor Parnassus."
-            // },
+
             {
                 "type": "p",
                 "text": "Ledger’s role as The Joker had a profound impact on him off-screen. He isolated himself, kept journals in character, and slept only a few hours per night while preparing for the role, describing the character as a 'psychopathic, mass-murdering, schizophrenic clown'."
             },
-            // {
-            //     type: "img",
-            //     src: './images/articles/article10_5.webp',
-            //     caption: "Heath Ledger The Dark Knight."
-            // },
+            {
+                type: "img",
+                src: './images/articles/article10_3.webp',
+                caption: "Heath Ledger The Dark Knight."
+            },
             {
                 "type": "p",
                 "text": "Public reaction to Ledger’s death was immediate and widespread. Fans gathered outside his Manhattan apartment and the Brooklyn home he had shared with Michelle Williams. Hollywood peers, including Gary Oldman and Daniel Day-Lewis, expressed admiration and grief."
             },
-            // {
-            //     type: "img",
-            //     src: './images/articles/article10_6.webp',
-            //     caption: "Flowers sit outside the townhouse that recently deceased actor Heath Ledger and actress Michelle Williams once shared on Hoyt S."
-            // },
             {
                 "type": "p",
                 "text": "Michelle Williams, Ledger’s former partner and mother of his daughter Matilda, spoke publicly about her heartbreak, emphasizing Ledger’s enduring presence in their daughter’s life."
             },
-            // {
-            //     type: "img",
-            //     src: './images/articles/article10_7.webp',
-            //     caption: "Heath Ledger."
-            // },
             {
                 "type": "p",
                 "text": "Ledger is remembered for his versatile talent and the depth he brought to every role, from teen comedies to dramatic films. He continues to inspire actors and audiences alike through his performances, his daughter Matilda, and the Australians in Film Heath Ledger Scholarship, which supports Australian actors transitioning to Hollywood."
             }
         ]
     },
+
+    // qilinmagna
     {
         id: 11,
         category: 'entertainment',
         title: "The Most Shocking Snubs and Surprises of the 2026 Oscar Nominations: Wicked and Paul Mescal Shut Out as Kate Hudson Shines",
         description: "The 2026 Oscar nominations delivered major surprises and painful snubs, with Wicked: For Good completely shut out, Paul Mescal overlooked, and Kate Hudson emerging as a standout nominee as Sinners shattered records with 16 nominations.",
-        // image: './images/articles/article11.webp',
+        image: './images/articles/article11.avif',
         date: '2026-01-23T00:53:41',
         "content": [
             {
@@ -735,11 +651,11 @@ const newsData = [
                 "type": "p",
                 "text": "The biggest headline of the morning belonged to Sinners, which made Oscars history by earning a record-breaking 16 nominations, surpassing longtime record holders Titanic and La La Land."
             },
-            // {
-            //     type: "img",
-            //     src: './images/articles/article11_2.webp',
-            //     caption: "Ariana Grande as Glinda and Cynthia Erivo as Elphaba in Wicked For Good."
-            // },
+            {
+                type: "img",
+                src: './images/articles/article11_2.webp',
+                caption: "Ariana Grande as Glinda and Cynthia Erivo as Elphaba in Wicked For Good."
+            },
             {
                 "type": "p",
                 "text": "However, the celebration was tempered by one of the most shocking omissions of the year: Wicked: For Good. Despite its predecessor earning 10 nominations in 2025 and strong momentum throughout awards season, the sequel failed to secure a single nod."
@@ -749,11 +665,11 @@ const newsData = [
                 "title": "Major Snub: Ariana Grande and Cynthia Erivo",
                 "text": "Costars Ariana Grande and Cynthia Erivo were both excluded from the acting categories despite being nominated the previous year. Grande, in particular, was considered a strong contender after receiving multiple precursor nominations, making her absence especially surprising."
             },
-            // {
-            //     type: "img",
-            //     src: './images/articles/article11_3.webp',
-            //     caption: "The Smashing Machine."
-            // },
+            {
+                type: "img",
+                src: './images/articles/article11_3.webp',
+                caption: "The Smashing Machine."
+            },
             {
                 "type": "p",
                 "title": "Snub: Paul Mescal",
@@ -764,11 +680,11 @@ const newsData = [
                 "title": "Snub: Dwayne Johnson and Emily Blunt",
                 "text": "Despite critical praise and Golden Globe nominations, Dwayne Johnson and Emily Blunt were left out of the Oscars race for their performances in The Smashing Machine, marking a disappointing awards season for the MMA biopic."
             },
-            // {
-            //     type: "img",
-            //     src: './images/articles/article11_4.webp',
-            //     caption: "George Clooney is Jay Kelly."
-            // },
+            {
+                type: "img",
+                src: './images/articles/article11_4.webp',
+                caption: "George Clooney is Jay Kelly."
+            },
             {
                 "type": "p",
                 "title": "Snub: George Clooney and Adam Sandler",
@@ -779,11 +695,11 @@ const newsData = [
                 "title": "Surprise: Kate Hudson",
                 "text": "One of the day’s brightest moments came from Kate Hudson, who earned her second Oscar nomination for her performance in Song Sung Blue. The recognition marks a career milestone, 25 years after her first nomination for Almost Famous."
             },
-            // {
-            //     type: "img",
-            //     src: './images/articles/article11_5.webp',
-            //     caption: "Chase Infiniti in One Battle After Another."
-            // },
+            {
+                type: "img",
+                src: './images/articles/article11_5.webp',
+                caption: "Chase Infiniti in One Battle After Another."
+            },
             {
                 "type": "p",
                 "title": "Snub: Chase Infiniti",
@@ -794,11 +710,11 @@ const newsData = [
                 "title": "Surprise: Delroy Lindo",
                 "text": "Delroy Lindo earned his first-ever Oscar nomination for Sinners, a welcome surprise after being overlooked by the Golden Globes and Critics’ Choice Awards. His nomination further cemented the film’s historic morning."
             },
-            // {
-            //     type: "img",
-            //     src: './images/articles/article11_6.webp',
-            //     caption: "Delroy Lindo in Sinners."
-            // },
+            {
+                type: "img",
+                src: './images/articles/article11_6.webp',
+                caption: "Delroy Lindo in Sinners."
+            },
             {
                 "type": "p",
                 "text": "With passions running high and debates already raging, the 2026 Oscar nominations have set the stage for a dramatic awards season leading up to the ceremony on March 15."
@@ -810,7 +726,7 @@ const newsData = [
         category: 'humanInterest',
         title: "2 Dead, Multiple Children Feared Missing After Landslides Strike Homes and Campsite in New Zealand Tourist Area",
         description: "At least two people have died and several others, including multiple children, are feared missing after powerful landslides tore through homes and a popular campsite in New Zealand’s North Island, triggering an urgent search and rescue operation.",
-        // image: './images/articles/article12.webp',
+        image: './images/articles/article12.webp',
         date: '2026-01-23T01:00:12',
         content: [
             {
@@ -821,11 +737,11 @@ const newsData = [
                 type: "p",
                 text: "Authorities confirmed that two fatalities occurred in the town of Welcome Bay, where a residential property was extensively damaged by a landslide. Police said both victims were found deceased at the scene, and the deaths have been referred to the coroner."
             },
-            // {
-            //     type: "img",
-            //     src: './images/articles/article12_2.webp',
-            //     caption: "A search is underway for missing people following the Mount Maunganui, New Zealand landslide."
-            // },
+            {
+                type: "img",
+                src: './images/articles/article12_2.webp',
+                caption: "A search is underway for missing people following the Mount Maunganui, New Zealand landslide."
+            },
             {
                 type: "p",
                 text: "At the same time, emergency services launched a major search and rescue operation at Mount Maunganui, an extinct volcanic dome known for its beaches, walking trails, and nearby campsites frequented by tourists."
@@ -838,11 +754,11 @@ const newsData = [
                 type: "p",
                 text: "Bay of Plenty District Commander Superintendent Tim Anderson said police and Fire and Emergency New Zealand were running multiple rescue operations simultaneously to locate anyone trapped beneath debris."
             },
-              // {
-            //     type: "img",
-            //     src: './images/articles/article12_3.webp',
-            //     caption: "Officials are pictured at the scene following the Mount Maunganui, New Zealand landslide."
-            // },
+              {
+                type: "img",
+                src: './images/articles/article12_3.webp',
+                caption: "Officials are pictured at the scene following the Mount Maunganui, New Zealand landslide."
+            },
             {
                 type: "p",
                 title: "Children Feared Among the Missing",
@@ -880,7 +796,8 @@ const newsData = [
         category: 'entertainment',
         title: "DWTS Pro Britt Stewart Says Zac Efron Seemed Surprised to See Her at Semi-Finals: 'Clear Zac Does Not Watch the Show'",
         description: "Dancing with the Stars pro Britt Stewart says reconnecting with former High School Musical costar Zac Efron at the season 34 semi-finals was exciting but awkward, admitting it was clear the actor doesn’t regularly watch the show.",
-        // image: './images/articles/article13.webp',
+        image: './images/articles/article13.jpg',
+        imageCredit: "Zac Efron photo by Eva Rinaldi, CC BY 2.0",
         date: '2026-01-23T01:04:48',
         content: [
             {
@@ -903,11 +820,6 @@ const newsData = [
                 type: "p",
                 text: "Stewart recalled introducing herself and explaining that she is now a professional dancer on the show, describing the interaction as a quick but warm catch-up that ended with a hug."
             },
-              // {
-            //     type: "img",
-            //     src: './images/articles/article13_2.webp',
-            //     caption: "Britt in High School Musical."
-            // },
             {
                 type: "p",
                 text: "The reunion comes as the first High School Musical film celebrates its 20th anniversary. The Disney Channel movie premiered on Jan. 20, 2006, and became a cultural phenomenon that launched the careers of Zac Efron, Vanessa Hudgens, and several other stars."
@@ -931,7 +843,8 @@ const newsData = [
         category: 'royals',
         title: "Princess Beatrice's Daughter Athena Celebrates Her 1st Birthday After Premature Birth",
         description: "Princess Beatrice and Edoardo Mapelli Mozzi’s daughter Athena Elizabeth Rose turns 1, marking a milestone after being born prematurely in 2025, with Beatrice previously sharing her emotional experience welcoming her early.",
-        // image: './images/articles/article14.webp',
+        image: './images/articles/article14.jpg',
+        imageCredit: "Photo by Lorenzo De Leonardis, CC BY 2.0",
         date: '2026-01-23T01:13:39',
         content: [
             {
@@ -942,11 +855,6 @@ const newsData = [
                 type: "p",
                 text: "Athena is the youngest child of Princess Beatrice and her husband, Edoardo Mapelli Mozzi, and she was born prematurely in 2025, several weeks earlier than her expected due date."
             },
-               // {
-            //     type: "img",
-            //     src: './images/articles/article14_2.webp',
-            //     caption: "Edoardo Mapelli Mozzi and Princess Beatrice with their children in London on July 29, 2025."
-            // },
             {
                 type: "p",
                 text: "Buckingham Palace had originally announced that the baby was due in early spring, but Athena arrived sooner than expected, something Beatrice later reflected on in a rare personal essay."
@@ -963,11 +871,6 @@ const newsData = [
                 type: "p",
                 text: "Following Athena’s birth, Beatrice thanked her medical team at Chelsea and Westminster Hospital and became a patron of Borne, a British medical research charity focused on preventing premature birth."
             },
-                // {
-            //     type: "img",
-            //     src: './images/articles/article14_3.webp',
-            //     caption: "Princess Beatrice vists Borne research laboratories at Chelsea and Westminster Hospital in London on Nov. 10, 2025."
-            // },
             {
                 type: "p",
                 text: "The couple made their first major public appearance after Athena’s birth at Borne’s Wonderland Gala, and later visited the charity’s research laboratories to support its work."
@@ -1000,7 +903,7 @@ const newsData = [
         category: 'health',
         title: "Doctor with ALS Says Access to Medical Aid in Dying 'Freed' Him from 'Immeasurable Fear and Dread': 'Enough Is Enough'",
         description: "Dr. Jeremy Boal, a New York City physician diagnosed with ALS, says knowing he will have access to medical aid in dying has freed him from overwhelming fear and allowed him to live more fully despite his terminal illness.",
-        // image: './images/articles/article15.webp',
+        image: './images/articles/article15.jpg',
         date: '2026-01-23T01:19:14',
         content: [
             {
@@ -1032,11 +935,6 @@ const newsData = [
                 type: "p",
                 text: "For months after his diagnosis, he described living in a constant state of panic and dread, haunted by visions of a prolonged and painful death caused by ALS."
             },
-                    // {
-            //     type: "img",
-            //     src: './images/articles/article15_2.webp',
-            //     caption: "Man in a wheelchair."
-            // },
             {
                 type: "p",
                 text: "Over time, however, Boal said joy slowly returned to his life through therapy, support from loved ones, and the knowledge that he would have the option of medical aid in dying."
@@ -1057,11 +955,6 @@ const newsData = [
                 type: "p",
                 text: "He shared that when the law takes effect, he hopes to spend his final moments outdoors with his wife and daughters, surrounded by nature and the life he cherishes."
             },
-                       // {
-            //     type: "img",
-            //     src: './images/articles/article15_3.webp',
-            //     caption: "Jeremy Boal."
-            // },
             {
                 type: "p",
                 text: "Today, Boal says he meditates, exercises carefully, advocates for patient choice, and savors everyday experiences that once felt overshadowed by fear."
@@ -1071,7 +964,63 @@ const newsData = [
                 text: "He believes that access to medical aid in dying has restored his sense of control and allowed him to live more vibrantly in the time he has left."
             }
         ]
+    },
+    {
+        id: 16,
+        category: 'entertainment',
+        title: "Jaime King and Austin Sosa to Divorce After Secret Marriage, Just 7 Months After Announcing Engagement",
+        description: "Actress Jaime King and banker Austin Sosa are divorcing less than a year after announcing their engagement, with court documents revealing the split followed a secret marriage.",
+        image: './images/articles/article16.jpg',
+        date: '2026-01-23T13:08:07',
+        imageCredit: "Photo by PaulLim11, CC BY 4.0",
+        content: [
+            {
+                type: "p",
+                text: "Jaime King is getting divorced from her second husband, Austin Sosa, less than a year after the couple announced their engagement."
+            },
+            {
+                type: "p",
+                text: "According to court documents obtained by PEOPLE, Sosa filed for divorce from the Hart of Dixie alum on Thursday, Jan. 22. TMZ was first to report the news."
+            },
+            {
+                type: "p",
+                text: "It remains unclear when King and Sosa officially tied the knot, as the couple kept their marriage private prior to the divorce filing."
+            },
+            {
+                type: "p",
+                text: "PEOPLE previously reported in July 2025 that King and Sosa were engaged, with the actress’ representative confirming the news at the time."
+            },
+            {
+                type: "p",
+                text: "King’s representative shared that she was especially happy to celebrate the engagement with her children, emphasizing that her sons remained her top priority."
+            },
+            {
+                type: "p",
+                text: "A source previously told PEOPLE that King was close with Sosa’s family and had been staying with his parents after moving out of her Los Angeles apartment earlier in 2025."
+            },
+            {
+                type: "p",
+                text: "The actress is a mother to two sons, James, 12, and Leo, 10, whom she shares with her ex-husband Kyle Newman."
+            },
+            {
+                type: "p",
+                text: "King briefly spoke about her engagement in September during an appearance on Juicy Scoop with Heather McDonald, revealing that she and Sosa met through mutual friends."
+            },
+            {
+                type: "p",
+                text: "King was previously married to filmmaker Kyle Newman in 2007. She filed for divorce in May 2020, and their divorce was finalized in September 2023."
+            },
+            {
+                type: "p",
+                text: "In March 2025, a judge granted Newman sole physical custody of their sons, while the former couple continues to share legal custody."
+            },
+            {
+                type: "p",
+                text: "PEOPLE has reached out to King’s representative for comment regarding the divorce from Sosa."
+            }
+        ]
     }
+    
     
     
 ]
