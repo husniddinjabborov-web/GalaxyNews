@@ -1640,7 +1640,85 @@ const newsData = [
                 text: "She often reminds her daughter that no matter how difficult life becomes, they are capable of facing it together."
             }
         ]
+    },
+ 
+    {
+        id: 24,
+        category: 'humanInterest',
+        title: "Heroic Deputy and Good Samaritan Save Injured Mailman Trapped in Burning Truck After Crash",
+        description: "A routine drive turned into a life-saving mission when a quick-thinking bystander and a deputy worked together to rescue an injured mailman from a USPS truck moments before it was overtaken by fire.",
+        image: './images/articles/article24.jpg',
+        date: '2026-01-23T23:43:21',
+        content: [
+            {
+                type: "p",
+                text: "A frightening crash in Parkland, Washington, quickly escalated into a life-or-death situation when a USPS truck began filling with smoke after colliding with a sedan."
+            },
+            {
+                type: "p",
+                text: "The accident happened on January 8 along Park Avenue South, leaving the mail truck driver injured and trapped inside his vehicle as smoke thickened by the second."
+            },
+            {
+                type: "p",
+                text: "As traffic slowed and drivers looked on, one woman, Stephanie Burkhart Mabee, immediately sensed the danger and pulled over without hesitation."
+            },
+            {
+                type: "p",
+                text: "Mabee could see heavy smoke pouring from the truck and realized the driver inside was unable to escape on his own."
+            },
+            {
+                type: "p",
+                text: "Acting purely on instinct, she rushed back to her car and grabbed emergency tools she carried, including a hammer, a seat belt cutter and a fire extinguisher."
+            },
+            {
+                type: "p",
+                text: "Although flames had not yet fully erupted, Mabee later said it was clear the truck was moments away from catching fire."
+            },
+            {
+                type: "p",
+                text: "Using the hammer, she broke the door handle so the door could slide open and carefully cut the driver’s seat belt to free him from the seat."
+            },
+            {
+                type: "p",
+                text: "As she worked to pull the injured man out, a deputy arrived at the scene and immediately joined the rescue effort."
+            },
+            {
+                type: "p",
+                text: "Body camera footage later released showed thick smoke surrounding the vehicle as the two worked together under intense pressure."
+            },
+            {
+                type: "p",
+                text: "They attempted to put out the fire using extinguishers, but the flames continued to grow, forcing them to prioritize moving the driver farther away."
+            },
+            {
+                type: "p",
+                text: "Together, they dragged the mailman to a safer distance just as the situation became increasingly dangerous."
+            },
+            {
+                type: "p",
+                text: "Authorities later confirmed that both the mail truck driver and a passenger from the sedan were taken to local hospitals in serious condition."
+            },
+            {
+                type: "p",
+                text: "Mabee reflected on the rescue by saying she hoped others would respond the same way in emergencies, rather than watching from their cars."
+            },
+            {
+                type: "p",
+                text: "She explained that fear never crossed her mind, as her focus was entirely on getting the injured man out alive."
+            },
+            {
+                type: "p",
+                text: "Local officials publicly praised Mabee’s courage, crediting her quick response with preventing a far worse outcome."
+            },
+            {
+                type: "p",
+                text: "They also highlighted the importance of teamwork between civilians and law enforcement during critical moments."
+            },
+            {
+                type: "p",
+                text: "The dramatic rescue stands as a powerful reminder that everyday people can become heroes when they choose to act."
+            }
+        ]
     }
-    
     
 ]
