@@ -976,47 +976,115 @@ const newsData = [
         content: [
             {
                 type: "p",
-                text: "Jaime King is getting divorced from her second husband, Austin Sosa, less than a year after the couple announced their engagement."
+                text: "Jaime King is getting divorced from her second husband, Austin Sosa, just months after the couple publicly announced their engagement."
             },
             {
                 type: "p",
-                text: "According to court documents obtained by PEOPLE, Sosa filed for divorce from the Hart of Dixie alum on Thursday, Jan. 22. TMZ was first to report the news."
+                text: "Court documents show that Sosa filed for divorce on Thursday, Jan. 22, marking the end of the couple’s brief marriage."
             },
             {
                 type: "p",
-                text: "It remains unclear when King and Sosa officially tied the knot, as the couple kept their marriage private prior to the divorce filing."
+                text: "It is unclear when King and Sosa officially married, as the pair kept their wedding private prior to the divorce filing."
             },
             {
                 type: "p",
-                text: "PEOPLE previously reported in July 2025 that King and Sosa were engaged, with the actress’ representative confirming the news at the time."
+                text: "The couple confirmed their engagement in July 2025, with King expressing gratitude for the support she received at the time."
             },
             {
                 type: "p",
-                text: "King’s representative shared that she was especially happy to celebrate the engagement with her children, emphasizing that her sons remained her top priority."
+                text: "She was especially happy to share the milestone with her children and emphasized that her sons remain her top priority."
             },
             {
                 type: "p",
-                text: "A source previously told PEOPLE that King was close with Sosa’s family and had been staying with his parents after moving out of her Los Angeles apartment earlier in 2025."
+                text: "Sources previously noted that King had grown close to Sosa’s family and had been staying with his parents after moving out of her Los Angeles apartment earlier in 2025."
             },
             {
                 type: "p",
-                text: "The actress is a mother to two sons, James, 12, and Leo, 10, whom she shares with her ex-husband Kyle Newman."
+                text: "King shares two sons, James, 12, and Leo, 10, with her ex-husband Kyle Newman."
             },
             {
                 type: "p",
-                text: "King briefly spoke about her engagement in September during an appearance on Juicy Scoop with Heather McDonald, revealing that she and Sosa met through mutual friends."
+                text: "She briefly discussed her engagement in a September podcast appearance, revealing that she and Sosa met through mutual friends."
             },
             {
                 type: "p",
-                text: "King was previously married to filmmaker Kyle Newman in 2007. She filed for divorce in May 2020, and their divorce was finalized in September 2023."
+                text: "King was previously married to Newman from 2007 until their separation in 2020. Their divorce was finalized in 2023."
             },
             {
                 type: "p",
-                text: "In March 2025, a judge granted Newman sole physical custody of their sons, while the former couple continues to share legal custody."
+                text: "In 2025, Newman was granted sole physical custody of their sons, while both parents continue to share legal custody."
+            }
+        ]
+    },
+
+    {
+        id: 17,
+        category: 'entertainment',
+        title: "Bethenny Frankel Reveals She Has Stage 2 Chronic Kidney Disease and Urges Fans to Get Regular Bloodwork",
+        description: "Bethenny Frankel shared that she has been diagnosed with stage 2 chronic kidney disease, explaining how routine blood tests led to the discovery and encouraging others to stay proactive about their health.",
+        image: './images/articles/article18.jpg',
+        imageCredit: "Bethenny Frankel photo by Gina Hughes, CC BY 3.0",
+        date: '2026-01-23T13:26:27',
+        content: [
+            {
+                type: "p",
+                text: "Bethenny Frankel revealed that she has been diagnosed with stage 2 chronic kidney disease."
             },
             {
                 type: "p",
-                text: "PEOPLE has reached out to King’s representative for comment regarding the divorce from Sosa."
+                text: "The reality TV alum shared the news in a January 22 video, explaining that she wanted to raise awareness and encourage others to take precautions with their own health."
+            },
+            {
+                type: "p",
+                text: "She said she has been proactive about regular medical testing, including bloodwork and bone density scans, when repeated results showed her kidney function levels were low."
+            },
+            {
+                type: "p",
+                text: "After several abnormal test results, Frankel was referred to a kidney specialist, despite initially feeling hesitant about attending the appointment."
+            },
+            {
+                type: "p",
+                text: "During the visit, she was informed that she has stage 2 chronic kidney disease, which she said may be linked to an autoimmune condition or a severe allergic reaction she experienced years ago."
+            },
+            {
+                type: "p",
+                text: "Stage 2 kidney disease is considered a mild loss of kidney function and can often be managed through monitoring and lifestyle changes."
+            },
+            {
+                type: "p",
+                text: "Frankel shared that the condition may explain why she has experienced recurrent infections in the past."
+            },
+            {
+                type: "p",
+                text: "Her doctor advised her to stay well hydrated, recommending a significant increase in daily water intake."
+            },
+            {
+                type: "p",
+                text: "She admitted that drinking enough water has always been a challenge for her, despite understanding its importance."
+            },
+            {
+                type: "p",
+                text: "Frankel was also instructed to avoid certain medications and supplements that could negatively impact kidney health."
+            },
+            {
+                type: "p",
+                text: "This diagnosis follows a series of health challenges, including long COVID and an autoimmune disorder she was diagnosed with in 2023."
+            },
+            {
+                type: "p",
+                text: "Earlier this year, she also dealt with a bacterial infection while on vacation."
+            },
+            {
+                type: "p",
+                text: "Frankel said she decided to speak publicly about her condition to encourage others to stay on top of their medical appointments and bloodwork."
+            },
+            {
+                type: "p",
+                text: "She emphasized the importance of follow-up testing, noting that patterns in results can reveal underlying health issues."
+            },
+            {
+                type: "p",
+                text: "Frankel added that while she is still learning about her condition, she hopes sharing her experience will help others take their health seriously."
             }
         ]
     }

@@ -69,31 +69,40 @@ function renderNews() {
     }
 
     // A. ASOSIY YANGILIK (Featured)
-    if (currentCategory === 'all' && !searchQuery && filteredNews.length > 0) {
-        const main = filteredNews[0];
-        featuredSection.innerHTML = `
-            <a href="article.html?title=${generateSlug(main.title)}" class="text-decoration-none shadow-sm d-block" style="border-radius: 15px; overflow: hidden;">
-                <div class="featured-news mb-0">
-                    <img src="${main.image}" alt="${main.title}">
-                    <div class="featured-overlay">
-                        <span class="badge badge-category mb-3">Latest News</span>
-                        <h1 class="display-5 fw-bold mb-3">${main.title}</h1>
-                        <p class="card-text lead mb-3 text-white-50">${main.description}</p>
-                        <div class="d-flex align-items-center text-white-50">
-                            <span><i class="fas fa-clock me-2"></i>${calculateTime(main.date)}</span>                     
-                        </div>
+   // A. ASOSIY YANGILIK (Featured)
+if (currentCategory === 'all' && !searchQuery && filteredNews.length > 0) {
+    const main = filteredNews[0];
+
+    featuredSection.innerHTML = `
+        <a href="article.html?title=${generateSlug(main.title)}" 
+           class="text-decoration-none shadow-sm d-block" 
+           style="border-radius: 15px; overflow: hidden;">
+            <div class="featured-news mb-0 position-relative">
+                <img src="${main.image}" alt="${main.title}" class="img-fluid w-100">
+
+                <div class="featured-overlay p-3">
+                    <span class="badge badge-category mb-2">Latest News</span>
+                    <h1 class="display-5 fw-bold mb-2 text-white">${main.title}</h1>
+                    <p class="card-text lead mb-2 text-white-50">${main.description}</p>
+                    <div class="d-flex align-items-center text-white-50 mb-2">
+                        <span><i class="fas fa-clock me-2"></i>${calculateTime(main.date)}</span>                     
                     </div>
+
+                    <!-- 🔹 FEATURED IMAGE CREDIT -->
+                    ${main.imageCredit ? `
+                        <p class="image-credit text-white-50 mb-0" style="font-size:12px;">
+                            📷 Image: ${main.imageCredit}
+                        </p>
+                    ` : ''}
                 </div>
-                 ${main.imageCredit ? `
-                                <div class="image-credit text-white-50 mt-2" style="font-size:12px;">
-                                    ${main.imageCredit}
-                                </div>
-                            ` : ''}       
-            </a>`;
-        featuredSection.style.display = 'block';
-    } else {
-        featuredSection.style.display = 'none';
-    }
+            </div>
+        </a>
+    `;
+    featuredSection.style.display = 'block';
+} else {
+    featuredSection.style.display = 'none';
+}
+
 
     // B. TRENDING VA RO'YXAT
     if (filteredNews.length === 0) {
@@ -115,6 +124,7 @@ function renderNews() {
     }
 }
 
+// 4. Card yaratish (HTML strukturasi)
 // 4. Card yaratish (HTML strukturasi)
 function createNewsCard(item, isTrending = false) {
     const vaqt = calculateTime(item.date);
@@ -140,7 +150,7 @@ function createNewsCard(item, isTrending = false) {
                     <!-- 🔹 IMAGE CREDIT -->
                     ${item.imageCredit ? `
                         <p class="small text-muted mt-2" style="font-size: 11px;">
-                            ${item.imageCredit}
+                            📷 Image: ${item.imageCredit}
                         </p>
                     ` : ''}
 
@@ -153,6 +163,7 @@ function createNewsCard(item, isTrending = false) {
         </a>
     </div>`;
 }
+
 
 
 // --- EVENT LISTENERS (HODISALAR) ---
