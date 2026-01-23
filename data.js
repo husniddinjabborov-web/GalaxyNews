@@ -1398,9 +1398,76 @@ const newsData = [
                 text: "Despite the attention surrounding the viral clip, DiCaprio appears content to keep the identity of his conversation partner private."
             }
         ]
+    },
+    
+    
+    {
+        id: 21,
+        category: 'entertainment',
+        title: "Guy Fieri Debuts Unrecognizable New Look While Celebrating His 58th Birthday",
+        description: "Guy Fieri surprised fans by revealing a dramatically different look on his 58th birthday, trading his signature spiky blonde hair and facial hair for a clean-shaven, conservative style that sparked playful reactions online.",
+        image: './images/articles/article21.png',
+        imageCredit: "Guy Fieri screenshot by Big Red Liquors, CC BY 3.0 (YouTube) – https://www.youtube.com/watch?v=n_Ac3cbuFEA&ab_channel=BigRedLiquors",
+        date: '2026-01-23T23:20:14',
+        content: [
+            {
+                type: "p",
+                text: "Guy Fieri surprised fans by debuting an unrecognizable new look while celebrating his 58th birthday on January 22."
+            },
+            {
+                type: "p",
+                text: "The longtime Food Network star shared a video showing off his dramatic transformation, which featured a clean-shaven face and neatly parted brown hair instead of his signature spiky blonde style."
+            },
+            {
+                type: "p",
+                text: "He paired the new hairstyle with a conservative outfit that included a checkered button-down shirt and khaki pants, giving him a noticeably different appearance."
+            },
+            {
+                type: "p",
+                text: "In the video, Fieri joked about the change, saying that after celebrating his birthday as Guy for many years, he decided to celebrate this one as just a guy."
+            },
+            {
+                type: "p",
+                text: "He leaned over to blow out the candles on his birthday cake before wishing himself a happy birthday."
+            },
+            {
+                type: "p",
+                text: "Fieri captioned the post simply, calling it a fresh start with a new year, a new look, and a new version of himself."
+            },
+            {
+                type: "p",
+                text: "The unexpected makeover quickly drew reactions from fellow celebrity chefs, many of whom praised the humor behind the transformation."
+            },
+            {
+                type: "p",
+                text: "One chef described the look as a hilarious birthday gift that brought laughter to fans and friends alike."
+            },
+            {
+                type: "p",
+                text: "Fieri’s son Hunter also chimed in, joking that his father now looked like he had started selling insurance."
+            },
+            {
+                type: "p",
+                text: "Hunter later shared a still image from the video on social media, adding a heartfelt birthday message alongside the joke."
+            },
+            {
+                type: "p",
+                text: "Guy Fieri shares two sons with his wife Lori, and both children have frequently appeared in moments celebrating his career and milestones."
+            },
+            {
+                type: "p",
+                text: "Despite the temporary change, Fieri has previously explained that his iconic hairstyle is quick and easy to maintain."
+            },
+            {
+                type: "p",
+                text: "He has also made it clear in past interviews that his bold hair and tattoos were personal style choices made long before television fame."
+            },
+            {
+                type: "p",
+                text: "The birthday post showed that while his look may change for fun, Fieri’s playful personality remains the same."
+            }
+        ]
     }
-    
-    
     
     
     
