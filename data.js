@@ -1919,6 +1919,55 @@ const newsData = [
                 text: "By speaking out, she hopes others facing similar challenges will realize they are not alone and that there is hope beyond fear."
             }
         ]
+    },
+    {
+        id: 27,
+        category: "entertainment",
+        title: "At 16, I Gave Up My Olympic Figure Skating Dreams. Writing Blade Made Me Confront the Traumatic Reasons Why",
+        description: "Former Olympic hopeful Wendy Walker reflects on walking away from competitive figure skating at 16 and how writing her novel Blade forced her to finally confront the emotional trauma and pressure that shaped her childhood.",
+        image: "./images/articles/article27.jpg",
+        date: "2026-01-24T19:25:15",
+        content: [
+            {
+                type: "p",
+                text: "Wendy Walker was only 12 years old when the 1980 Winter Olympics took place in Lake Placid, New York. While most Americans remember those Games for the Miracle on Ice, Walker’s defining memory comes from watching her idol, figure skater Lisa-Marie Allen, compete on the Olympic stage. That performance ignited a dream that would shape her entire childhood."
+            },
+            {
+                type: "p",
+                text: "Later that same year, Walker left home to pursue her own Olympic ambitions at the elite training facility in Colorado Springs. Living in a dormitory alongside skaters from around the world, she trained relentlessly, waking before sunrise and spending long, physically demanding days on the ice. Though she initially excelled in artistry and compulsory figures, the emotional weight of separation from her family quietly began to take a toll."
+            },
+            {
+                type: "p",
+                text: "Severe homesickness followed. Each week, Walker would retreat to a private corner to call her parents, hiding her tears to avoid appearing weak. Over time, loneliness pushed her toward unstable friendships with older skaters, relationships that offered temporary comfort but ultimately deepened her sense of isolation and emotional exhaustion."
+            },
+            {
+                type: "p",
+                text: "As the sport rapidly evolved, technical jumps became more important than artistry. Despite years of training, Walker struggled to adapt, which fueled feelings of failure and self-doubt. By her mid-teens, the pressure contributed to depression and risky behaviors that further eroded her confidence both on and off the ice."
+            },
+            {
+                type: "p",
+                text: "After being caught breaking curfew, Walker was asked to leave the dormitory — a moment that felt like public humiliation. Soon after, she was taken in by the mother of a former Olympian, providing her with stability during a critical period. That Olympian was Lisa-Marie Allen, the same skater Walker had once idolized from afar."
+            },
+            {
+                type: "p",
+                text: "Living in Allen’s home was surreal and bittersweet. Surrounded by reminders of Olympic success, Walker was forced to confront the reality that her own skating career was slipping away. During one visit home, Allen recognized Walker’s struggle and asked a simple yet life-changing question: was there anything else she was good at?"
+            },
+            {
+                type: "p",
+                text: "When Walker answered that she excelled academically, Allen encouraged her to pursue that path instead. That single conversation opened a door to a future Walker had never considered. At 16, she made the painful decision to leave competitive skating behind."
+            },
+            {
+                type: "p",
+                text: "Walker redirected her ambition toward education, eventually graduating magna cum laude from Brown University and Georgetown Law School. She went on to build a successful career across law, finance, and writing, forming a life that appeared far removed from the rink."
+            },
+            {
+                type: "p",
+                text: "Years later, while writing her novel Blade, Walker realized she had never fully confronted the emotional trauma tied to her skating years. To truly face that past, she returned to the ice as an adult, where the fear, joy, and intensity of skating resurfaced almost instantly."
+            },
+            {
+                type: "p",
+                text: "With a new Olympic season approaching and Blade entering the world, Walker reflects on how childhood dreams — even the ones we abandon — leave a lasting imprint. Though she left skating behind, the discipline and resilience it instilled continue to drive her forward, now channeled through storytelling rather than competition."
+            }
+        ]
     }
-    
 ]
