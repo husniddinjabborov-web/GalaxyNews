@@ -1813,6 +1813,112 @@ const newsData = [
                 text: "Her story continues to live on through the community she built, the art she created and the hope she shared until the very end."
             }
         ]
+    },
+    {
+        id: 26,
+        category: 'humanInterest',
+        title: "Teen with Selective Mutism Didn’t Speak in Public for 16 Years, Then One Day She Made a Difficult Choice",
+        description: "After spending most of her life unable to speak in public due to selective mutism, a young woman shares how a pivotal moment helped her slowly find her voice and begin building the life she once thought was impossible.",
+        image: './images/articles/article26.jpg',
+        date: '2026-01-24T19:17:58',
+        content: [
+            {
+                type: "p",
+                text: "For most of her childhood and teenage years, Melanie Manderino lived in near silence, unable to speak in public settings despite desperately wanting to express herself."
+            },
+            {
+                type: "p",
+                text: "Now 18 years old, Melanie has begun sharing her story after struggling with selective mutism, a severe anxiety disorder that made speaking in social situations feel physically impossible."
+            },
+            {
+                type: "p",
+                text: "Although she was capable of talking, every attempt to speak outside her home felt overwhelming, as if her voice were being blocked by fear."
+            },
+            {
+                type: "p",
+                text: "At school, Melanie was completely silent, spending years unable to participate in class discussions or even say a few words to classmates."
+            },
+            {
+                type: "p",
+                text: "She recalls feeling trapped inside her own body, with thoughts and personality locked away behind anxiety she didn’t yet understand."
+            },
+            {
+                type: "p",
+                text: "Watching other children speak freely only deepened her confusion, as she assumed they were simply better at communication rather than realizing she was experiencing a mental health condition."
+            },
+            {
+                type: "p",
+                text: "Selective mutism often begins in childhood and is considered rare, affecting less than one percent of the population, yet its impact can be life-altering."
+            },
+            {
+                type: "p",
+                text: "For Melanie, even thinking about speaking triggered physical symptoms, including nausea, shaking and a racing heart."
+            },
+            {
+                type: "p",
+                text: "She would rehearse sentences repeatedly in her mind, knowing exactly what she wanted to say but never being able to bring the words out."
+            },
+            {
+                type: "p",
+                text: "As a result, she often felt isolated, sitting quietly beside peers and struggling to form friendships."
+            },
+            {
+                type: "p",
+                text: "Though she occasionally managed to say a few words as she grew older, most interactions remained painfully limited."
+            },
+            {
+                type: "p",
+                text: "By the time she was 16, the emotional toll of silence had led her to feel deeply depressed and disconnected from the world around her."
+            },
+            {
+                type: "p",
+                text: "At that low point, Melanie realized something needed to change and turned to faith, asking for strength and help to face her fear."
+            },
+            {
+                type: "p",
+                text: "She remembers attending an event with one simple goal in mind — to say hello to just one person."
+            },
+            {
+                type: "p",
+                text: "When someone approached her and greeted her first, she found the courage to quietly say hello back, a moment that felt monumental."
+            },
+            {
+                type: "p",
+                text: "That small exchange marked the beginning of a slow and difficult journey toward finding her voice."
+            },
+            {
+                type: "p",
+                text: "Progress didn’t come easily, but Melanie began allowing herself to speak a few words at a time, gradually building confidence."
+            },
+            {
+                type: "p",
+                text: "During her junior year of high school, forming a close friendship helped her learn communication skills she had never had the chance to develop."
+            },
+            {
+                type: "p",
+                text: "Encouraged by her growth, Melanie decided to share her experience online, hoping to raise awareness about selective mutism."
+            },
+            {
+                type: "p",
+                text: "Her video quickly went viral, reaching millions and connecting her with others who saw their own struggles reflected in her story."
+            },
+            {
+                type: "p",
+                text: "Messages from viewers, especially younger students dealing with the same condition, reinforced her belief that sharing her story mattered."
+            },
+            {
+                type: "p",
+                text: "Today, Melanie continues to work through her anxiety, acknowledging that selective mutism is still part of her life."
+            },
+            {
+                type: "p",
+                text: "However, she now knows that silence does not define her future and that growth is possible, even if it comes slowly."
+            },
+            {
+                type: "p",
+                text: "By speaking out, she hopes others facing similar challenges will realize they are not alone and that there is hope beyond fear."
+            }
+        ]
     }
     
 ]
