@@ -1969,5 +1969,61 @@ const newsData = [
                 text: "With a new Olympic season approaching and Blade entering the world, Walker reflects on how childhood dreams — even the ones we abandon — leave a lasting imprint. Though she left skating behind, the discipline and resilience it instilled continue to drive her forward, now channeled through storytelling rather than competition."
             }
         ]
+    },
+    {
+        id: 28,
+        category: "entertainment",
+        title: "Dancehall Star Spice Underwent 7 Surgeries After a Near-Death Experience: ‘My Body Was Becoming Poisonous’",
+        description: "Grammy-nominated dancehall star Spice opens up about surviving sepsis after a terrifying medical emergency, undergoing seven surgeries and finding renewed faith that inspired her powerful gospel song.",
+        image: "./images/articles/article28.png",
+        imageCredit: "WBLS / YouTube (CC BY 3.0)",
+        date: "2026-01-24T19:34:07",
+        content: [
+            {
+                type: "p",
+                text: "Dancehall icon Spice is reflecting on a terrifying chapter of her life after surviving a near-death medical emergency that left her fighting for survival. The Jamaican-born artist revealed that a sudden health crisis while she was alone in the Dominican Republic in 2022 ultimately led to sepsis, multiple surgeries and months of recovery."
+            },
+            {
+                type: "p",
+                text: "Spice, whose real name is Grace Latoya Hamilton, explained that one of her intestines ruptured unexpectedly, sending her body into septic shock. Doctors were forced to perform emergency surgery, cutting her body open from top to bottom in a desperate attempt to save her life as the infection rapidly spread."
+            },
+            {
+                type: "p",
+                text: "The sepsis quickly began attacking her vital organs, including her lungs and liver. She recalled being told that her body was essentially becoming toxic from the inside, with doctors fearing she would not survive the aggressive infection."
+            },
+            {
+                type: "p",
+                text: "During her hospitalization, Spice says she drifted in and out of consciousness, but remembers hearing gospel music playing in the background as her sister stayed by her side. She credits those moments, along with her deep faith, for helping her pull through what doctors described as a miracle recovery."
+            },
+            {
+                type: "p",
+                text: "Although she had always maintained a close relationship with God, the experience profoundly strengthened her spirituality. Spice revealed that even medical professionals were preparing her loved ones for the worst, stunned by how dire her condition had become."
+            },
+            {
+                type: "p",
+                text: "In total, Spice underwent seven surgeries to repair the damage caused by the infection. The procedures were spaced months apart, as doctors needed to allow her body time to heal before operating again. Her final surgery was completed in 2024."
+            },
+            {
+                type: "p",
+                text: "Throughout her recovery, Spice relied heavily on prayer, setting alarms on her phone to remind her to pause and connect spiritually. Even surgeons noticed the frequent prayer reminders sounding during her hospital stays."
+            },
+            {
+                type: "p",
+                text: "One of the most shocking aspects of her illness was the severe damage to her skin, particularly around her abdomen. Doctors warned she would likely need skin grafts, as the sepsis had destroyed large areas of tissue."
+            },
+            {
+                type: "p",
+                text: "Against all expectations, Spice’s skin healed naturally. She later shared images of her recovery with fans, describing the healing process as nothing short of divine intervention."
+            },
+            {
+                type: "p",
+                text: "Now fully recovered and back in the spotlight, Spice says her body is healthy once again — something even doctors did not anticipate. The experience inspired her gospel-influenced song, 'God Don’t Play About Me,' which reflects her renewed devotion and gratitude."
+            },
+            {
+                type: "p",
+                text: "As a mother of two and a global music star, Spice says her mission now extends beyond entertainment. She hopes her story encourages others to lean into faith during life’s darkest moments and reminds fans of the power of resilience, prayer and survival."
+            }
+        ]
     }
+    
 ]
