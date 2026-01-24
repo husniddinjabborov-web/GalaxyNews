@@ -2024,6 +2024,53 @@ const newsData = [
                 text: "As a mother of two and a global music star, Spice says her mission now extends beyond entertainment. She hopes her story encourages others to lean into faith during life’s darkest moments and reminds fans of the power of resilience, prayer and survival."
             }
         ]
+    },
+    {
+        id: 29,
+        category: "entertainment",
+        title: "Naomi Osaka Withdraws from Australian Open Due to Injury: ‘Having to Stop Here Breaks My Heart’",
+        description: "Naomi Osaka has withdrawn from the 2026 Australian Open after sustaining an injury, saying the decision was necessary to avoid further damage despite how much the tournament meant to her.",
+        image: "./images/articles/article29.png",
+        imageCredit: "Fuzheado / CC BY-SA 4.0",
+        date: "2026-01-24T19:45:51",
+        content: [
+            {
+                type: "p",
+                text: "Naomi Osaka has officially withdrawn from the 2026 Australian Open after suffering an injury that raised concerns about her long-term health. The 28-year-old tennis star shared the news with fans on Saturday, explaining that while she desperately wanted to continue competing, her body required immediate attention following her most recent match."
+            },
+            {
+                type: "p",
+                text: "In an emotional message shared on her Instagram Stories, Osaka revealed that she experienced physical damage during her second-round match against Romanian player Sorana Cîrstea. She described the decision to step away from the tournament as incredibly difficult, noting that this particular Australian Open held special meaning for her."
+            },
+            {
+                type: "p",
+                text: "Osaka explained that continuing to play could potentially worsen her condition, which ultimately led her to prioritize recovery over competition. She emphasized that withdrawing was the only way to ensure she could return to the court healthy, rather than risking long-term injury."
+            },
+            {
+                type: "p",
+                text: "Despite her disappointment, Osaka expressed deep gratitude to fans and supporters who showed her love throughout the tournament. She said the encouragement she received made the experience meaningful, even though it ended sooner than she had hoped."
+            },
+            {
+                type: "p",
+                text: "The withdrawal came just hours before Osaka was scheduled to face Australian qualifier Maddison Inglis in the third round. Her sudden exit marked an unexpected turn, especially after her hard-fought victory over Cîrstea earlier in the week."
+            },
+            {
+                type: "p",
+                text: "During that match, Osaka reportedly sustained an abdominal injury, though the full extent of the issue was not disclosed. The contest itself drew attention after a tense on-court exchange between the two players, which appeared to add emotional strain to an already demanding match."
+            },
+            {
+                type: "p",
+                text: "The disagreement occurred when Cîrstea took issue with Osaka speaking to herself between serves, prompting a brief but heated discussion involving the umpire. While the situation did not affect the outcome of the match, it added intensity to an already competitive atmosphere."
+            },
+            {
+                type: "p",
+                text: "Following the encounter, the players shared an icy exchange near the umpire’s chair, signaling lingering tension. Osaka later addressed the moment, suggesting the misunderstanding may have been blown out of proportion and expressing regret that her opponent felt upset."
+            },
+            {
+                type: "p",
+                text: "Now focused on healing, Osaka says her priority is listening to her body and ensuring she can return stronger. Though stepping away from the Australian Open was heartbreaking, she made it clear that protecting her health remains the most important decision of her career."
+            }
+        ]
     }
     
 ]
