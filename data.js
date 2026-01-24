@@ -2071,6 +2071,62 @@ const newsData = [
                 text: "Now focused on healing, Osaka says her priority is listening to her body and ensuring she can return stronger. Though stepping away from the Australian Open was heartbreaking, she made it clear that protecting her health remains the most important decision of her career."
             }
         ]
+    },
+    {
+        id: 30,
+        category: "entertainment",
+        title: "Scott Foley Says Scandal Costars Still Have a Group Chat, Reveals Who Sends the Wildest Texts",
+        description: "Scott Foley revealed that years after Scandal ended, the cast still keeps in touch through an active group chat and shared which castmate is responsible for the wildest messages.",
+        image: "./images/articles/article30.jpg",
+        imageCredit: "iDominick / Flickr (CC BY-SA 2.0)",
+        date: "2026-01-24T19:51:09",
+        content: [
+            {
+                type: "p",
+                text: "Scott Foley says that even years after the hit ABC drama Scandal came to an end, the bond between the cast remains strong. According to the actor, the former castmates are still very much connected through a lively group chat that continues to bring them together long after filming wrapped."
+            },
+            {
+                type: "p",
+                text: "While attending the New York City premiere of his new series, It’s Not Like That, Foley opened up about the group dynamic and revealed which cast member is known for sending the most outrageous messages. Without hesitation, he pointed to Katie Lowes, describing her as fearless, unapologetic and always entertaining."
+            },
+            {
+                type: "p",
+                text: "Foley explained that Lowes’ carefree personality makes her messages especially memorable, adding that the group fully embraces her energy. He praised her talent and confidence, noting that the cast has always encouraged each other to be authentic and expressive."
+            },
+            {
+                type: "p",
+                text: "The actor, now 53, portrayed Jake Ballard on Scandal, one of Olivia Pope’s key love interests and a powerful figure within the show’s fictional political world. He joined the series during the second half of season two and later became a series regular as the show grew into a cultural phenomenon."
+            },
+            {
+                type: "p",
+                text: "Reflecting on his time on the series, Foley shared that while actors always hope a project will last for several seasons, the deeper reward often comes from the relationships built along the way. Spending years working closely together naturally created strong personal connections among the cast."
+            },
+            {
+                type: "p",
+                text: "He noted that Scandal was particularly special because the cast spent significant time together both on set and off. Those shared experiences helped form friendships that extended beyond work, leading to the group chat that still remains active today."
+            },
+            {
+                type: "p",
+                text: "During the premiere event, Foley was unexpectedly surprised with a video message from Kerry Washington, who expressed her pride in him and her support for his new project. The moment highlighted the lasting respect and affection among the former costars."
+            },
+            {
+                type: "p",
+                text: "Scandal aired on ABC for seven seasons from 2012 to 2018 and featured an ensemble cast that included Washington, Lowes, Tony Goldwyn, Bellamy Young, Jeff Perry, Darby Stanchfield, Joe Morton and Guillermo Díaz."
+            },
+            {
+                type: "p",
+                text: "Looking back, Foley recalled one of his most memorable experiences from the show, which involved traveling to the Bahamas with Washington to film a key storyline. To keep the plot under wraps during the show’s peak popularity, the production arranged for a private flight."
+            },
+            {
+                type: "p",
+                text: "He described the trip as unforgettable, noting how surreal it felt to be flown out with only a small crew to protect the secrecy of the storyline. For Foley, moments like that captured just how unique the Scandal experience truly was."
+            },
+            {
+                type: "p",
+                text: "Now focused on his latest role, Foley stars as a widowed father navigating love and loss in It’s Not Like That. The series is set to premiere with two episodes, marking a new chapter in his career while his Scandal connections continue to thrive."
+            }
+        ]
     }
+    
     
 ]
